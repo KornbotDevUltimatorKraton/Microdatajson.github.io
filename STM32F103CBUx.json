@@ -1,73 +1,55 @@
 {
    "Mcu": {
-      "Core": "Arm Cortex-M4",
-      "Frequency": "100",
-      "Ram": "256",
-      "IONb": "36",
-      "Die": "DIE441",
-      "Flash": [
-         "512",
-         "1024"
-      ],
+      "Core": "Arm Cortex-M3",
+      "Frequency": "72",
+      "Ram": "20",
+      "IONb": "37",
+      "Die": "DIE410",
+      "Flash": "128",
       "Voltage": {
          "_Max": "3.6",
-         "_Min": "1.7"
+         "_Min": "2"
       },
       "Current": {
-         "_Lowest": "1.1",
-         "_Run": "112"
+         "_Lowest": "1.7",
+         "_Run": "373"
       },
       "Temperature": {
-         "_Max": "85",
+         "_Max": "105",
          "_Min": "-40"
       },
       "IP": [
          {
             "_InstanceName": "ADC1",
             "_Name": "ADC",
-            "_Version": "aditf2_v1_1_Cube"
+            "_Version": "aditf_v2_5F1_Cube"
          },
          {
-            "_ConfigFile": "CAN-STM32F4xx",
-            "_InstanceName": "CAN1",
+            "_InstanceName": "ADC2",
+            "_Name": "ADC",
+            "_Version": "aditf_v2_5F1_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_CAN1_CLK_ENABLE",
+            "_ConfigFile": "CAN-STM32F1xx",
+            "_InstanceName": "CAN",
             "_Name": "CAN",
-            "_Version": "bxcan1_v1_1_Cube"
+            "_Version": "bxcan1_v1_1_F1_Cube"
          },
          {
-            "_ClockEnableMode": "__HAL_RCC_CAN1_CLK_ENABLE;__HAL_RCC_CAN2_CLK_ENABLE",
-            "_ConfigFile": "CAN-STM32F4xx",
-            "_InstanceName": "CAN2",
-            "_Name": "CAN",
-            "_Version": "bxcan1_v1_1_Cube"
-         },
-         {
-            "_ConfigFile": "CRC-STM32F4xx",
+            "_ConfigFile": "CRC-STM32F1xx",
             "_InstanceName": "CRC",
             "_Name": "CRC",
             "_Version": "integtest1_v1_0"
          },
          {
-            "_ConfigFile": "DFSDM-STM32F412",
-            "_InstanceName": "DFSDM1",
-            "_Name": "DFSDM",
-            "_Version": "dfsdm1_v1_0_4ch_Cube"
-         },
-         {
-            "_ClockEnableMode": "none",
-            "_ConfigFile": "FATFS-STM32F4xx",
+            "_ConfigFile": "FATFS-STM32F1xx",
             "_InstanceName": "FATFS",
             "_Name": "FATFS",
             "_Version": "v0.1.0_Cube"
          },
          {
-            "_ClockEnableMode": "__HAL_RCC_FMPI2C1_CLK_ENABLE",
-            "_ConfigFile": "FMPI2C-STM32F4xx",
-            "_InstanceName": "FMPI2C1",
-            "_Name": "FMPI2C",
-            "_Version": "i2c2_v1_1_Cube"
-         },
-         {
-            "_ConfigFile": "FREERTOS-STM32F4xx",
+            "_ConfigFile": "FREERTOS-STM32F1xx",
             "_InstanceName": "FREERTOS",
             "_Name": "FREERTOS",
             "_Version": "v8.0.0_Cube"
@@ -83,274 +65,115 @@
             "_Version": "i2c1_v1_5_Cube"
          },
          {
-            "_InstanceName": "I2C3",
-            "_Name": "I2C",
-            "_Version": "i2c1_v1_5_Cube"
-         },
-         {
-            "_ClockEnableMode": "__HAL_RCC_SPI1_CLK_ENABLE",
-            "_ConfigFile": "I2S-STM32F4xx",
-            "_InstanceName": "I2S1",
-            "_Name": "I2S",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
-            "_ClockEnableMode": "__HAL_RCC_SPI2_CLK_ENABLE",
-            "_ConfigFile": "I2S-STM32F4xx",
-            "_InstanceName": "I2S2",
-            "_Name": "I2S",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
-            "_ClockEnableMode": "__HAL_RCC_SPI3_CLK_ENABLE",
-            "_ConfigFile": "I2S-STM32F4xx",
-            "_InstanceName": "I2S3",
-            "_Name": "I2S",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
-            "_ClockEnableMode": "__HAL_RCC_SPI4_CLK_ENABLE",
-            "_ConfigFile": "I2S-STM32F4xx",
-            "_InstanceName": "I2S4",
-            "_Name": "I2S",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
-            "_ClockEnableMode": "__HAL_RCC_SPI5_CLK_ENABLE",
-            "_ConfigFile": "I2S-STM32F4xx",
-            "_InstanceName": "I2S5",
-            "_Name": "I2S",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
             "_ClockEnableMode": "none",
-            "_ConfigFile": "IWDG-STM32F4xx",
+            "_ConfigFile": "IWDG-STM32F1xx",
             "_InstanceName": "IWDG",
             "_Name": "IWDG",
             "_Version": "iwdg1_v1_1"
          },
          {
-            "_ConfigFile": "LIBJPEG-STM32F4xx",
-            "_InstanceName": "LIBJPEG",
-            "_Name": "LIBJPEG",
-            "_Version": "v8_Cube"
-         },
-         {
-            "_ConfigFile": "MBEDTLS-STM32F4xx",
-            "_InstanceName": "MBEDTLS",
-            "_Name": "MBEDTLS",
-            "_Version": "v2_16_2_Cube"
-         },
-         {
-            "_ClockEnableMode": "__HAL_RCC_CRC_CLK_ENABLE",
-            "_ConfigFile": "PDM2PCM-STM32F4xx",
-            "_InstanceName": "PDM2PCM",
-            "_Name": "PDM2PCM",
-            "_Version": "pdm2pcm_v3.2.0_Cube"
-         },
-         {
             "_InstanceName": "RCC",
             "_Name": "RCC",
-            "_Version": "STM32F412-rcc_v1_0"
-         },
-         {
-            "_InstanceName": "RNG",
-            "_Name": "RNG",
-            "_Version": "rng1_v1_1"
+            "_Version": "STM32F102_rcc_v1_0"
          },
          {
             "_ClockEnableMode": "__HAL_RCC_RTC_ENABLE",
-            "_ConfigFile": "RTC-STM32F4xx",
+            "_ConfigFile": "RTC-STM32F1xx",
             "_InstanceName": "RTC",
             "_Name": "RTC",
-            "_Version": "rtc2_v2_3"
+            "_Version": "rtc1_v1_1_Cube"
          },
          {
-            "_ConfigFile": "SDIO-STM32F4xx",
-            "_InstanceName": "SDIO",
-            "_Name": "SDIO",
-            "_Version": "sdmmc_v1_2_Cube"
-         },
-         {
-            "_ConfigFile": "SPI-STM32F4xx",
+            "_ConfigFile": "SPI-STM32F1xx",
             "_InstanceName": "SPI1",
             "_Name": "SPI",
-            "_Version": "spi2s1_v2_2_Cube"
+            "_Version": "spi2_v1_4_Cube"
          },
          {
-            "_ConfigFile": "SPI-STM32F4xx",
+            "_ConfigFile": "SPI-STM32F1xx",
             "_InstanceName": "SPI2",
             "_Name": "SPI",
-            "_Version": "spi2s1_v2_2_Cube"
+            "_Version": "spi2_v1_4_Cube"
          },
          {
-            "_ConfigFile": "SPI-STM32F4xx",
-            "_InstanceName": "SPI3",
-            "_Name": "SPI",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
-            "_ConfigFile": "SPI-STM32F4xx",
-            "_InstanceName": "SPI4",
-            "_Name": "SPI",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
-            "_ConfigFile": "SPI-STM32F4xx",
-            "_InstanceName": "SPI5",
-            "_Name": "SPI",
-            "_Version": "spi2s1_v2_2_Cube"
-         },
-         {
-            "_ClockEnableMode": "__HAL_RCC_SYSCFG_CLK_ENABLE;__HAL_RCC_PWR_CLK_ENABLE",
+            "_ClockEnableMode": "__HAL_RCC_AFIO_CLK_ENABLE;__HAL_RCC_PWR_CLK_ENABLE",
             "_InstanceName": "SYS",
             "_Name": "SYS",
-            "_Version": "STM32F410_sys_v1_0"
+            "_Version": "STM32F10x_sys_v1_0"
          },
          {
-            "_ConfigFile": "TIM-STM32F4xx",
+            "_ConfigFile": "TIM-STM32F1xx",
             "_InstanceName": "TIM1",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
+            "_Name": "TIM1_8F1",
+            "_Version": "gptimer2_v1_x_Cube"
          },
          {
-            "_ConfigFile": "TIM-STM32F4xx",
+            "_ConfigFile": "TIM-STM32F1xx",
             "_InstanceName": "TIM2",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
+            "_Name": "TIM1_8F1",
+            "_Version": "gptimer2_v1_x_Cube"
          },
          {
-            "_ConfigFile": "TIM-STM32F4xx",
+            "_ConfigFile": "TIM-STM32F1xx",
             "_InstanceName": "TIM3",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
+            "_Name": "TIM1_8F1",
+            "_Version": "gptimer2_v1_x_Cube"
          },
          {
-            "_ConfigFile": "TIM-STM32F4xx",
+            "_ConfigFile": "TIM-STM32F1xx",
             "_InstanceName": "TIM4",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM5",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM6",
-            "_Name": "TIM6_7",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM7",
-            "_Name": "TIM6_7",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM8",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM9",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM10",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM11",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM12",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM13",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
-         },
-         {
-            "_ConfigFile": "TIM-STM32F4xx",
-            "_InstanceName": "TIM14",
-            "_Name": "TIM1_8",
-            "_Version": "gptimer2_v2_x_Cube"
+            "_Name": "TIM1_8F1",
+            "_Version": "gptimer2_v1_x_Cube"
          },
          {
             "_InstanceName": "USART1",
             "_Name": "USART",
-            "_Version": "sci2_v1_2_Cube"
+            "_Version": "sci2_v1_1_Cube"
          },
          {
             "_InstanceName": "USART2",
             "_Name": "USART",
-            "_Version": "sci2_v1_2_Cube"
+            "_Version": "sci2_v1_1_Cube"
          },
          {
             "_InstanceName": "USART3",
             "_Name": "USART",
-            "_Version": "sci2_v1_2_Cube"
+            "_Version": "sci2_v1_1_Cube"
          },
          {
-            "_InstanceName": "USART6",
-            "_Name": "USART",
-            "_Version": "sci2_v1_2_Cube"
+            "_InstanceName": "USB",
+            "_Name": "USB",
+            "_Version": "usb1_v1_1_Cube"
          },
          {
-            "_ConfigFile": "USB_DEVICE-STM32F4xx",
+            "_ConfigFile": "USB_DEVICE-STM32F1xx",
             "_InstanceName": "USB_DEVICE",
             "_Name": "USB_DEVICE",
-            "_Version": "v1.0_Cube"
+            "_Version": "v2.0_Cube"
          },
          {
-            "_ConfigFile": "USB_HOST-STM32F4xx",
-            "_InstanceName": "USB_HOST",
-            "_Name": "USB_HOST",
-            "_Version": "v1.0_Cube"
-         },
-         {
-            "_InstanceName": "USB_OTG_FS",
-            "_Name": "USB_OTG_FS",
-            "_Version": "otgfs1_v2_2_Cube"
-         },
-         {
-            "_ConfigFile": "WWDG-STM32F4xx",
+            "_ConfigFile": "WWDG-STM32F1xx",
             "_InstanceName": "WWDG",
             "_Name": "WWDG",
             "_Version": "wwdg1_v1_0"
          },
          {
-            "_ConfigFile": "GPIO-STM32F4xx",
+            "_ConfigFile": "GPIO-STM32F1xx",
             "_InstanceName": "GPIO",
             "_Name": "GPIO",
-            "_Version": "STM32F412_gpio_v1_0"
+            "_Version": "STM32F103x8_gpio_v1_0"
          },
          {
-            "_ConfigFile": "DMA-STM32F4xx",
+            "_ConfigFile": "DMA-STM32F1xx",
             "_InstanceName": "DMA",
             "_Name": "DMA",
-            "_Version": "STM32F412_dma_v2_0"
+            "_Version": "STM32F103G_dma_v1_0"
          },
          {
-            "_ConfigFile": "NVIC-STM32F4xx",
+            "_ConfigFile": "NVIC-STM32F1xx",
             "_InstanceName": "NVIC",
             "_Name": "NVIC",
-            "_Version": "STM32F412"
+            "_Version": "STM32F103G"
          }
       ],
       "Pin": [
@@ -362,14 +185,17 @@
          {
             "Signal": [
                {
-                  "_Name": "RTC_AF1"
+                  "_Name": "RTC_OUT"
+               },
+               {
+                  "_Name": "RTC_TAMPER"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
                   "_Name": "GPIO"
                }
             ],
-            "_Name": "PC13",
+            "_Name": "PC13-TAMPER-RTC",
             "_Position": "2",
             "_Type": "I/O"
          },
@@ -393,6 +219,9 @@
                   "_Name": "ADC1_EXTI15"
                },
                {
+                  "_Name": "ADC2_EXTI15"
+               },
+               {
                   "_Name": "RCC_OSC32_OUT"
                },
                {
@@ -410,11 +239,11 @@
                   "_Name": "RCC_OSC_IN"
                },
                {
-                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_IOModes": "Input,Output,Analog,EXTI",
                   "_Name": "GPIO"
                }
             ],
-            "_Name": "PH0 - OSC_IN",
+            "_Name": "PD0-OSC_IN",
             "_Position": "5",
             "_Type": "I/O"
          },
@@ -424,11 +253,11 @@
                   "_Name": "RCC_OSC_OUT"
                },
                {
-                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_IOModes": "Input,Output,Analog,EXTI",
                   "_Name": "GPIO"
                }
             ],
-            "_Name": "PH1 - OSC_OUT",
+            "_Name": "PD1-OSC_OUT",
             "_Position": "6",
             "_Type": "I/O"
          },
@@ -453,19 +282,16 @@
                   "_Name": "ADC1_IN0"
                },
                {
-                  "_Name": "SYS_WKUP1"
+                  "_Name": "ADC2_IN0"
+               },
+               {
+                  "_Name": "SYS_WKUP"
                },
                {
                   "_Name": "TIM2_CH1"
                },
                {
                   "_Name": "TIM2_ETR"
-               },
-               {
-                  "_Name": "TIM5_CH1"
-               },
-               {
-                  "_Name": "TIM8_ETR"
                },
                {
                   "_Name": "USART2_CTS"
@@ -475,11 +301,7 @@
                   "_Name": "GPIO"
                }
             ],
-            "Condition": {
-               "_Diagnostic": "ETR and CH1 on the same GPIO for TIM2",
-               "_Expression": "(!(TIM2_CH1 & (PA15_S_TIM2_ETR|PA5_S_TIM2_ETR)) & !(TIM2_ETR & (PA15_S_TIM2_CH1|PA5_S_TIM2_CH1)))"
-            },
-            "_Name": "PA0",
+            "_Name": "PA0-WKUP",
             "_Position": "10",
             "_Type": "I/O"
          },
@@ -489,16 +311,10 @@
                   "_Name": "ADC1_IN1"
                },
                {
-                  "_Name": "I2S4_SD"
-               },
-               {
-                  "_Name": "SPI4_MOSI"
+                  "_Name": "ADC2_IN1"
                },
                {
                   "_Name": "TIM2_CH2"
-               },
-               {
-                  "_Name": "TIM5_CH2"
                },
                {
                   "_Name": "USART2_RTS"
@@ -518,16 +334,10 @@
                   "_Name": "ADC1_IN2"
                },
                {
-                  "_Name": "I2S_CKIN"
+                  "_Name": "ADC2_IN2"
                },
                {
                   "_Name": "TIM2_CH3"
-               },
-               {
-                  "_Name": "TIM5_CH3"
-               },
-               {
-                  "_Name": "TIM9_CH1"
                },
                {
                   "_Name": "USART2_TX"
@@ -547,16 +357,10 @@
                   "_Name": "ADC1_IN3"
                },
                {
-                  "_Name": "I2S2_MCK"
+                  "_Name": "ADC2_IN3"
                },
                {
                   "_Name": "TIM2_CH4"
-               },
-               {
-                  "_Name": "TIM5_CH4"
-               },
-               {
-                  "_Name": "TIM9_CH2"
                },
                {
                   "_Name": "USART2_RX"
@@ -576,19 +380,10 @@
                   "_Name": "ADC1_IN4"
                },
                {
-                  "_Name": "DFSDM1_DATIN1"
-               },
-               {
-                  "_Name": "I2S1_WS"
-               },
-               {
-                  "_Name": "I2S3_WS"
+                  "_Name": "ADC2_IN4"
                },
                {
                   "_Name": "SPI1_NSS"
-               },
-               {
-                  "_Name": "SPI3_NSS"
                },
                {
                   "_Name": "USART2_CK"
@@ -608,32 +403,16 @@
                   "_Name": "ADC1_IN5"
                },
                {
-                  "_Name": "DFSDM1_CKIN1"
-               },
-               {
-                  "_Name": "I2S1_CK"
+                  "_Name": "ADC2_IN5"
                },
                {
                   "_Name": "SPI1_SCK"
-               },
-               {
-                  "_Name": "TIM2_CH1"
-               },
-               {
-                  "_Name": "TIM2_ETR"
-               },
-               {
-                  "_Name": "TIM8_CH1N"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
                   "_Name": "GPIO"
                }
             ],
-            "Condition": {
-               "_Diagnostic": "ETR and CH1 on the same GPIO for TIM2",
-               "_Expression": "(!(TIM2_CH1 & (PA15_S_TIM2_ETR|PA0_S_TIM2_ETR)) & !(TIM2_ETR & (PA15_S_TIM2_CH1|PA0_S_TIM2_CH1)))"
-            },
             "_Name": "PA5",
             "_Position": "15",
             "_Type": "I/O"
@@ -644,25 +423,16 @@
                   "_Name": "ADC1_IN6"
                },
                {
-                  "_Name": "I2S2_MCK"
-               },
-               {
-                  "_Name": "SDIO_CMD"
+                  "_Name": "ADC2_IN6"
                },
                {
                   "_Name": "SPI1_MISO"
-               },
-               {
-                  "_Name": "TIM13_CH1"
                },
                {
                   "_Name": "TIM1_BKIN"
                },
                {
                   "_Name": "TIM3_CH1"
-               },
-               {
-                  "_Name": "TIM8_BKIN"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -679,22 +449,16 @@
                   "_Name": "ADC1_IN7"
                },
                {
-                  "_Name": "I2S1_SD"
+                  "_Name": "ADC2_IN7"
                },
                {
                   "_Name": "SPI1_MOSI"
-               },
-               {
-                  "_Name": "TIM14_CH1"
                },
                {
                   "_Name": "TIM1_CH1N"
                },
                {
                   "_Name": "TIM3_CH2"
-               },
-               {
-                  "_Name": "TIM8_CH1N"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -711,19 +475,13 @@
                   "_Name": "ADC1_IN8"
                },
                {
-                  "_Name": "I2S5_CK"
-               },
-               {
-                  "_Name": "SPI5_SCK"
+                  "_Name": "ADC2_IN8"
                },
                {
                   "_Name": "TIM1_CH2N"
                },
                {
                   "_Name": "TIM3_CH3"
-               },
-               {
-                  "_Name": "TIM8_CH2N"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -740,22 +498,13 @@
                   "_Name": "ADC1_IN9"
                },
                {
-                  "_Name": "DFSDM1_DATIN0"
-               },
-               {
-                  "_Name": "I2S5_WS"
-               },
-               {
-                  "_Name": "SPI5_NSS"
+                  "_Name": "ADC2_IN9"
                },
                {
                   "_Name": "TIM1_CH3N"
                },
                {
                   "_Name": "TIM3_CH4"
-               },
-               {
-                  "_Name": "TIM8_CH3N"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -769,9 +518,6 @@
          {
             "Signal": [
                {
-                  "_Name": "DFSDM1_CKIN0"
-               },
-               {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
                   "_Name": "GPIO"
                }
@@ -783,22 +529,7 @@
          {
             "Signal": [
                {
-                  "_Name": "FMPI2C1_SCL"
-               },
-               {
                   "_Name": "I2C2_SCL"
-               },
-               {
-                  "_Name": "I2S2_CK"
-               },
-               {
-                  "_Name": "I2S3_MCK"
-               },
-               {
-                  "_Name": "SDIO_D7"
-               },
-               {
-                  "_Name": "SPI2_SCK"
                },
                {
                   "_Name": "TIM2_CH3"
@@ -816,9 +547,30 @@
             "_Type": "I/O"
          },
          {
-            "_Name": "VCAP_1",
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "I2C2_SDA"
+               },
+               {
+                  "_Name": "TIM2_CH4"
+               },
+               {
+                  "_Name": "USART3_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB11",
             "_Position": "22",
-            "_Type": "Power"
+            "_Type": "I/O"
          },
          {
             "_Name": "VSS",
@@ -833,31 +585,10 @@
          {
             "Signal": [
                {
-                  "_Name": "CAN2_RX"
-               },
-               {
-                  "_Name": "DFSDM1_DATIN1"
-               },
-               {
                   "_Name": "I2C2_SMBA"
                },
                {
-                  "_Name": "I2S2_WS"
-               },
-               {
-                  "_Name": "I2S3_CK"
-               },
-               {
-                  "_Name": "I2S4_WS"
-               },
-               {
                   "_Name": "SPI2_NSS"
-               },
-               {
-                  "_Name": "SPI3_SCK"
-               },
-               {
-                  "_Name": "SPI4_NSS"
                },
                {
                   "_Name": "TIM1_BKIN"
@@ -877,28 +608,13 @@
          {
             "Signal": [
                {
-                  "_Name": "CAN2_TX"
-               },
-               {
-                  "_Name": "DFSDM1_CKIN1"
-               },
-               {
-                  "_Name": "FMPI2C1_SMBA"
-               },
-               {
-                  "_Name": "I2S2_CK"
-               },
-               {
-                  "_Name": "I2S4_CK"
-               },
-               {
                   "_Name": "SPI2_SCK"
                },
                {
-                  "_Name": "SPI4_SCK"
+                  "_Name": "TIM1_CH1N"
                },
                {
-                  "_Name": "TIM1_CH1N"
+                  "_Name": "USART3_CTS"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -912,28 +628,13 @@
          {
             "Signal": [
                {
-                  "_Name": "DFSDM1_DATIN2"
-               },
-               {
-                  "_Name": "FMPI2C1_SDA"
-               },
-               {
-                  "_Name": "I2S2_ext_SD"
-               },
-               {
-                  "_Name": "SDIO_D6"
-               },
-               {
                   "_Name": "SPI2_MISO"
-               },
-               {
-                  "_Name": "TIM12_CH1"
                },
                {
                   "_Name": "TIM1_CH2N"
                },
                {
-                  "_Name": "TIM8_CH2N"
+                  "_Name": "USART3_RTS"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -950,31 +651,13 @@
                   "_Name": "ADC1_EXTI15"
                },
                {
-                  "_Name": "DFSDM1_CKIN2"
-               },
-               {
-                  "_Name": "FMPI2C1_SCL"
-               },
-               {
-                  "_Name": "I2S2_SD"
-               },
-               {
-                  "_Name": "RTC_REFIN"
-               },
-               {
-                  "_Name": "SDIO_CK"
+                  "_Name": "ADC2_EXTI15"
                },
                {
                   "_Name": "SPI2_MOSI"
                },
                {
-                  "_Name": "TIM12_CH2"
-               },
-               {
                   "_Name": "TIM1_CH3N"
-               },
-               {
-                  "_Name": "TIM8_CH3N"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -988,22 +671,13 @@
          {
             "Signal": [
                {
-                  "_Name": "I2C3_SCL"
-               },
-               {
-                  "_Name": "RCC_MCO_1"
-               },
-               {
-                  "_Name": "SDIO_D1"
+                  "_Name": "RCC_MCO"
                },
                {
                   "_Name": "TIM1_CH1"
                },
                {
                   "_Name": "USART1_CK"
-               },
-               {
-                  "_Name": "USB_OTG_FS_SOF"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -1017,19 +691,10 @@
          {
             "Signal": [
                {
-                  "_Name": "I2C3_SMBA"
-               },
-               {
-                  "_Name": "SDIO_D2"
-               },
-               {
                   "_Name": "TIM1_CH2"
                },
                {
                   "_Name": "USART1_TX"
-               },
-               {
-                  "_Name": "USB_OTG_FS_VBUS"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -1043,19 +708,10 @@
          {
             "Signal": [
                {
-                  "_Name": "I2S5_SD"
-               },
-               {
-                  "_Name": "SPI5_MOSI"
-               },
-               {
                   "_Name": "TIM1_CH3"
                },
                {
                   "_Name": "USART1_RX"
-               },
-               {
-                  "_Name": "USB_OTG_FS_ID"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -1072,10 +728,10 @@
                   "_Name": "ADC1_EXTI11"
                },
                {
-                  "_Name": "CAN1_RX"
+                  "_Name": "ADC2_EXTI11"
                },
                {
-                  "_Name": "SPI4_MISO"
+                  "_Name": "CAN_RX"
                },
                {
                   "_Name": "TIM1_CH4"
@@ -1084,10 +740,7 @@
                   "_Name": "USART1_CTS"
                },
                {
-                  "_Name": "USART6_TX"
-               },
-               {
-                  "_Name": "USB_OTG_FS_DM"
+                  "_Name": "USB_DM"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -1101,10 +754,7 @@
          {
             "Signal": [
                {
-                  "_Name": "CAN1_TX"
-               },
-               {
-                  "_Name": "SPI5_MISO"
+                  "_Name": "CAN_TX"
                },
                {
                   "_Name": "TIM1_ETR"
@@ -1113,10 +763,7 @@
                   "_Name": "USART1_RTS"
                },
                {
-                  "_Name": "USART6_RX"
-               },
-               {
-                  "_Name": "USB_OTG_FS_DP"
+                  "_Name": "USB_DP"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -1171,16 +818,10 @@
                   "_Name": "ADC1_EXTI15"
                },
                {
-                  "_Name": "I2S1_WS"
-               },
-               {
-                  "_Name": "I2S3_WS"
+                  "_Name": "ADC2_EXTI15"
                },
                {
                   "_Name": "SPI1_NSS"
-               },
-               {
-                  "_Name": "SPI3_NSS"
                },
                {
                   "_Name": "SYS_JTDI"
@@ -1192,17 +833,10 @@
                   "_Name": "TIM2_ETR"
                },
                {
-                  "_Name": "USART1_TX"
-               },
-               {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
                   "_Name": "GPIO"
                }
             ],
-            "Condition": {
-               "_Diagnostic": "ETR and CH1 on the same GPIO for TIM2",
-               "_Expression": "(!(TIM2_CH1 & (PA5_S_TIM2_ETR|PA0_S_TIM2_ETR)) & !(TIM2_ETR & (PA5_S_TIM2_CH1|PA0_S_TIM2_CH1)))"
-            },
             "_Name": "PA15",
             "_Position": "38",
             "_Type": "I/O"
@@ -1210,31 +844,13 @@
          {
             "Signal": [
                {
-                  "_Name": "FMPI2C1_SDA"
-               },
-               {
-                  "_Name": "I2C2_SDA"
-               },
-               {
-                  "_Name": "I2S1_CK"
-               },
-               {
-                  "_Name": "I2S3_CK"
-               },
-               {
                   "_Name": "SPI1_SCK"
                },
                {
-                  "_Name": "SPI3_SCK"
-               },
-               {
-                  "_Name": "SYS_JTDO-SWO"
+                  "_Name": "SYS_JTDO-TRACESWO"
                },
                {
                   "_Name": "TIM2_CH2"
-               },
-               {
-                  "_Name": "USART1_RX"
                },
                {
                   "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
@@ -1248,22 +864,10 @@
          {
             "Signal": [
                {
-                  "_Name": "I2C3_SDA"
-               },
-               {
-                  "_Name": "I2S3_ext_SD"
-               },
-               {
-                  "_Name": "SDIO_D0"
-               },
-               {
                   "_Name": "SPI1_MISO"
                },
                {
-                  "_Name": "SPI3_MISO"
-               },
-               {
-                  "_Name": "SYS_JTRST"
+                  "_Name": "SYS_NJTRST"
                },
                {
                   "_Name": "TIM3_CH1"
@@ -1280,25 +884,10 @@
          {
             "Signal": [
                {
-                  "_Name": "CAN2_RX"
-               },
-               {
                   "_Name": "I2C1_SMBA"
                },
                {
-                  "_Name": "I2S1_SD"
-               },
-               {
-                  "_Name": "I2S3_SD"
-               },
-               {
-                  "_Name": "SDIO_D3"
-               },
-               {
                   "_Name": "SPI1_MOSI"
-               },
-               {
-                  "_Name": "SPI3_MOSI"
                },
                {
                   "_Name": "TIM3_CH2"
@@ -1308,6 +897,10 @@
                   "_Name": "GPIO"
                }
             ],
+            "Condition": {
+               "_Diagnostic": "BZ#83533",
+               "_Expression": "(!(SPI1_MOSI & PB6_I2C1_SCL) )"
+            },
             "_Name": "PB5",
             "_Position": "41",
             "_Type": "I/O"
@@ -1315,13 +908,7 @@
          {
             "Signal": [
                {
-                  "_Name": "CAN2_TX"
-               },
-               {
                   "_Name": "I2C1_SCL"
-               },
-               {
-                  "_Name": "SDIO_D0"
                },
                {
                   "_Name": "TIM4_CH1"
@@ -1334,6 +921,10 @@
                   "_Name": "GPIO"
                }
             ],
+            "Condition": {
+               "_Diagnostic": "BZ#83533",
+               "_Expression": "(!(I2C1_SCL & PB5_SPI1_MOSI) )"
+            },
             "_Name": "PB6",
             "_Position": "42",
             "_Type": "I/O"
@@ -1366,25 +957,10 @@
          {
             "Signal": [
                {
-                  "_Name": "CAN1_RX"
+                  "_Name": "CAN_RX"
                },
                {
                   "_Name": "I2C1_SCL"
-               },
-               {
-                  "_Name": "I2C3_SDA"
-               },
-               {
-                  "_Name": "I2S5_SD"
-               },
-               {
-                  "_Name": "SDIO_D4"
-               },
-               {
-                  "_Name": "SPI5_MOSI"
-               },
-               {
-                  "_Name": "TIM10_CH1"
                },
                {
                   "_Name": "TIM4_CH3"
@@ -1401,25 +977,10 @@
          {
             "Signal": [
                {
-                  "_Name": "CAN1_TX"
+                  "_Name": "CAN_TX"
                },
                {
                   "_Name": "I2C1_SDA"
-               },
-               {
-                  "_Name": "I2C2_SDA"
-               },
-               {
-                  "_Name": "I2S2_WS"
-               },
-               {
-                  "_Name": "SDIO_D5"
-               },
-               {
-                  "_Name": "SPI2_NSS"
-               },
-               {
-                  "_Name": "TIM11_CH1"
                },
                {
                   "_Name": "TIM4_CH4"
@@ -1445,13 +1006,13 @@
          }
       ],
       "_xmlns": "http://mcd.rou.st.com/modules.php?name=mcu",
-      "_ClockTree": "STM32F412",
+      "_ClockTree": "STM32F102",
       "_DBVersion": "V3.0",
-      "_Family": "STM32F4",
+      "_Family": "STM32F1",
       "_HasPowerPad": "false",
       "_IOType": "",
-      "_Line": "STM32F412",
+      "_Line": "STM32F103",
       "_Package": "UFQFPN48",
-      "_RefName": "STM32F412C(E-G)Ux"
+      "_RefName": "STM32F103CBUx"
    }
 }
