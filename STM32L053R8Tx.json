@@ -1,0 +1,1617 @@
+{
+   "Mcu": {
+      "Core": "Arm Cortex-M0+",
+      "Frequency": "32",
+      "E2prom": "2048",
+      "Ram": [
+         "8",
+         "8"
+      ],
+      "IONb": "51",
+      "Die": "DIE417",
+      "Flash": [
+         "32",
+         "64"
+      ],
+      "Voltage": {
+         "_Max": "3.6",
+         "_Min": "1.65"
+      },
+      "Current": {
+         "_Lowest": "0.29",
+         "_Run": "87"
+      },
+      "Temperature": {
+         "_Max": "85",
+         "_Min": "-40"
+      },
+      "IP": [
+         {
+            "_ClockEnableMode": "__HAL_RCC_ADC1_CLK_ENABLE",
+            "_ConfigFile": "ADC-STM32L0xx",
+            "_InstanceName": "ADC",
+            "_Name": "ADC",
+            "_Version": "aditf4_v2_0_Cube"
+         },
+         {
+            "_ClockEnableMode": "none",
+            "_ConfigFile": "COMP-STM32L0xx",
+            "_InstanceName": "COMP1",
+            "_Name": "COMP",
+            "_Version": "advmu_pvm_v1_0_Cube"
+         },
+         {
+            "_ClockEnableMode": "none",
+            "_ConfigFile": "COMP-STM32L0xx",
+            "_InstanceName": "COMP2",
+            "_Name": "COMP",
+            "_Version": "advmu_pvm_v1_0_Cube"
+         },
+         {
+            "_ConfigFile": "CRC-STM32L0xx",
+            "_InstanceName": "CRC",
+            "_Name": "CRC",
+            "_Version": "integtest1_v2_0"
+         },
+         {
+            "_ConfigFile": "DAC-STM32L0xx",
+            "_InstanceName": "DAC",
+            "_Name": "DAC",
+            "_Version": "dacif_v1_2_Cube"
+         },
+         {
+            "_ConfigFile": "FATFS-STM32L0xx",
+            "_InstanceName": "FATFS",
+            "_Name": "FATFS",
+            "_Version": "v0.1.0_Cube"
+         },
+         {
+            "_ConfigFile": "FREERTOS-STM32L0xx",
+            "_InstanceName": "FREERTOS",
+            "_Name": "FREERTOS",
+            "_Version": "v8.0.0_Cube"
+         },
+         {
+            "_InstanceName": "I2C1",
+            "_Name": "I2C",
+            "_Version": "i2c2_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "I2C2",
+            "_Name": "I2C",
+            "_Version": "i2c2_v1_1_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_SPI2_CLK_ENABLE",
+            "_ConfigFile": "I2S-STM32L0xx",
+            "_InstanceName": "I2S2",
+            "_Name": "I2S",
+            "_Version": "spi2s1_v3_1_Cube"
+         },
+         {
+            "_ClockEnableMode": "none",
+            "_ConfigFile": "IWDG-STM32L0xx",
+            "_InstanceName": "IWDG",
+            "_Name": "IWDG",
+            "_Version": "iwdg1_v2_0"
+         },
+         {
+            "_ConfigFile": "LCD-STM32L0xx",
+            "_InstanceName": "LCD",
+            "_Name": "LCD",
+            "_Version": "lcdc1_v1_3_Cube"
+         },
+         {
+            "_ConfigFile": "LPTIM-STM32L0xx",
+            "_InstanceName": "LPTIM1",
+            "_Name": "LPTIM",
+            "_Version": "lptimer1_v1_0_Cube"
+         },
+         {
+            "_InstanceName": "LPUART1",
+            "_Name": "LPUART",
+            "_Version": "sci3_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "RCC",
+            "_Name": "RCC",
+            "_Version": "STM32L051_rcc_v1_0"
+         },
+         {
+            "_ConfigFile": "RNG-STM32L0xx",
+            "_InstanceName": "RNG",
+            "_Name": "RNG",
+            "_Version": "rng1_v1_1"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_RTC_ENABLE",
+            "_ConfigFile": "RTC-STM32L0xx",
+            "_InstanceName": "RTC",
+            "_Name": "RTC",
+            "_Version": "rtc2_v2_4_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32L0xx",
+            "_InstanceName": "SPI1",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_1_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32L0xx",
+            "_InstanceName": "SPI2",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_1_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_SYSCFG_CLK_ENABLE;__HAL_RCC_PWR_CLK_ENABLE",
+            "_InstanceName": "SYS",
+            "_Name": "SYS",
+            "_Version": "STM32L051_sys_v1_0"
+         },
+         {
+            "_ConfigFile": "TIM-STM32L0xx",
+            "_InstanceName": "TIM2",
+            "_Name": "TIM1_8L0",
+            "_Version": "gptimer2_v2_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32L0xx",
+            "_InstanceName": "TIM6",
+            "_Name": "TIM6_7L0",
+            "_Version": "gptimer2_v2_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32L0xx",
+            "_InstanceName": "TIM21",
+            "_Name": "TIM1_8L0",
+            "_Version": "gptimer2_v2_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32L0xx",
+            "_InstanceName": "TIM22",
+            "_Name": "TIM1_8L0",
+            "_Version": "gptimer2_v2_x_Cube"
+         },
+         {
+            "_ConfigFile": "TOUCHSENSING-STM32L0xx",
+            "_InstanceName": "TOUCHSENSING",
+            "_Name": "TOUCHSENSING",
+            "_Version": "v2_2_0_Cube"
+         },
+         {
+            "_InstanceName": "TSC",
+            "_Name": "TSC",
+            "_Version": "tsc1_v1_0_Cube"
+         },
+         {
+            "_InstanceName": "USART1",
+            "_Name": "USART",
+            "_Version": "sci3_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "USART2",
+            "_Name": "USART",
+            "_Version": "sci3_v1_1_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_USB_CLK_ENABLE",
+            "_InstanceName": "USB",
+            "_Name": "USB",
+            "_Version": "usb1_v2_0_Cube"
+         },
+         {
+            "_ConfigFile": "USB_DEVICE-STM32L0xx",
+            "_InstanceName": "USB_DEVICE",
+            "_Name": "USB_DEVICE",
+            "_Version": "v2.0_Cube"
+         },
+         {
+            "_ConfigFile": "WWDG-STM32L0xx",
+            "_InstanceName": "WWDG",
+            "_Name": "WWDG",
+            "_Version": "wwdg1_v1_0"
+         },
+         {
+            "_ConfigFile": "GPIO-STM32L0xx",
+            "_InstanceName": "GPIO",
+            "_Name": "GPIO",
+            "_Version": "STM32L051_gpio_v1_0"
+         },
+         {
+            "_ConfigFile": "DMA-STM32L0xx",
+            "_InstanceName": "DMA",
+            "_Name": "DMA",
+            "_Version": "STM32L063_dma_v1_1"
+         },
+         {
+            "_ConfigFile": "NVIC-STM32L0xx",
+            "_InstanceName": "NVIC",
+            "_Name": "NVIC",
+            "_Version": "STM32L0xx"
+         }
+      ],
+      "Pin": [
+         {
+            "_Name": "VLCD",
+            "_Position": "1",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RTC_OUT_ALARM"
+               },
+               {
+                  "_Name": "RTC_OUT_CALIB"
+               },
+               {
+                  "_Name": "RTC_TAMP1"
+               },
+               {
+                  "_Name": "RTC_TS"
+               },
+               {
+                  "_Name": "SYS_WKUP2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "Condition": {
+               "_Diagnostic": "",
+               "_Expression": "!(RTC_OUT_CALIB & (WakeUp_Outputed | AlarmA_Outputed | AlarmB_Outputed))"
+            },
+            "_Name": "PC13",
+            "_Position": "2",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RCC_OSC32_IN"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC14-OSC32_IN",
+            "_Position": "3",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RCC_OSC32_OUT"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC15-OSC32_OUT",
+            "_Position": "4",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CRS_SYNC"
+               },
+               {
+                  "_Name": "RCC_OSC_IN"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PH0-OSC_IN",
+            "_Position": "5",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RCC_OSC_OUT"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PH1-OSC_OUT",
+            "_Position": "6",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "NRST",
+            "_Position": "7",
+            "_Type": "Reset"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN10"
+               },
+               {
+                  "_Name": "LCD_SEG18"
+               },
+               {
+                  "_Name": "LPTIM1_IN1"
+               },
+               {
+                  "_Name": "TSC_G7_IO1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC0",
+            "_Position": "8",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN11"
+               },
+               {
+                  "_Name": "LCD_SEG19"
+               },
+               {
+                  "_Name": "LPTIM1_OUT"
+               },
+               {
+                  "_Name": "TSC_G7_IO2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC1",
+            "_Position": "9",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN12"
+               },
+               {
+                  "_Name": "I2S2_MCK"
+               },
+               {
+                  "_Name": "LCD_SEG20"
+               },
+               {
+                  "_Name": "LPTIM1_IN2"
+               },
+               {
+                  "_Name": "SPI2_MISO"
+               },
+               {
+                  "_Name": "TSC_G7_IO3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC2",
+            "_Position": "10",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN13"
+               },
+               {
+                  "_Name": "I2S2_SD"
+               },
+               {
+                  "_Name": "LCD_SEG21"
+               },
+               {
+                  "_Name": "LPTIM1_ETR"
+               },
+               {
+                  "_Name": "SPI2_MOSI"
+               },
+               {
+                  "_Name": "TSC_G7_IO4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC3",
+            "_Position": "11",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSSA",
+            "_Position": "12",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDDA",
+            "_Position": "13",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN0"
+               },
+               {
+                  "_Name": "COMP1_INM"
+               },
+               {
+                  "_Name": "COMP1_OUT"
+               },
+               {
+                  "_Name": "RTC_TAMP2"
+               },
+               {
+                  "_Name": "SYS_WKUP1"
+               },
+               {
+                  "_Name": "TIM2_CH1"
+               },
+               {
+                  "_Name": "TIM2_ETR"
+               },
+               {
+                  "_Name": "TSC_G1_IO1"
+               },
+               {
+                  "_Name": "USART2_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA0",
+            "_Position": "14",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN1"
+               },
+               {
+                  "_Name": "COMP1_INP"
+               },
+               {
+                  "_Name": "LCD_SEG0"
+               },
+               {
+                  "_Name": "TIM21_ETR"
+               },
+               {
+                  "_Name": "TIM2_CH2"
+               },
+               {
+                  "_Name": "TSC_G1_IO2"
+               },
+               {
+                  "_Name": "USART2_DE"
+               },
+               {
+                  "_Name": "USART2_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA1",
+            "_Position": "15",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN2"
+               },
+               {
+                  "_Name": "COMP2_INM"
+               },
+               {
+                  "_Name": "COMP2_OUT"
+               },
+               {
+                  "_Name": "LCD_SEG1"
+               },
+               {
+                  "_Name": "TIM21_CH1"
+               },
+               {
+                  "_Name": "TIM2_CH3"
+               },
+               {
+                  "_Name": "TSC_G1_IO3"
+               },
+               {
+                  "_Name": "USART2_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA2",
+            "_Position": "16",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN3"
+               },
+               {
+                  "_Name": "COMP2_INP"
+               },
+               {
+                  "_Name": "LCD_SEG2"
+               },
+               {
+                  "_Name": "TIM21_CH2"
+               },
+               {
+                  "_Name": "TIM2_CH4"
+               },
+               {
+                  "_Name": "TSC_G1_IO4"
+               },
+               {
+                  "_Name": "USART2_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA3",
+            "_Position": "17",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "18",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "19",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN4"
+               },
+               {
+                  "_Name": "COMP1_INM"
+               },
+               {
+                  "_Name": "COMP2_INM"
+               },
+               {
+                  "_Name": "DAC_OUT1"
+               },
+               {
+                  "_Name": "SPI1_NSS"
+               },
+               {
+                  "_Name": "TIM22_ETR"
+               },
+               {
+                  "_Name": "TSC_G2_IO1"
+               },
+               {
+                  "_Name": "USART2_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA4",
+            "_Position": "20",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN5"
+               },
+               {
+                  "_Name": "COMP1_INM"
+               },
+               {
+                  "_Name": "COMP2_INM"
+               },
+               {
+                  "_Name": "SPI1_SCK"
+               },
+               {
+                  "_Name": "TIM2_CH1"
+               },
+               {
+                  "_Name": "TIM2_ETR"
+               },
+               {
+                  "_Name": "TSC_G2_IO2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA5",
+            "_Position": "21",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN6"
+               },
+               {
+                  "_Name": "COMP1_OUT"
+               },
+               {
+                  "_Name": "LCD_SEG3"
+               },
+               {
+                  "_Name": "LPUART1_CTS"
+               },
+               {
+                  "_Name": "SPI1_MISO"
+               },
+               {
+                  "_Name": "TIM22_CH1"
+               },
+               {
+                  "_Name": "TSC_G2_IO3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA6",
+            "_Position": "22",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN7"
+               },
+               {
+                  "_Name": "COMP2_OUT"
+               },
+               {
+                  "_Name": "LCD_SEG4"
+               },
+               {
+                  "_Name": "SPI1_MOSI"
+               },
+               {
+                  "_Name": "TIM22_CH2"
+               },
+               {
+                  "_Name": "TSC_G2_IO4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA7",
+            "_Position": "23",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN14"
+               },
+               {
+                  "_Name": "LCD_SEG22"
+               },
+               {
+                  "_Name": "LPUART1_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC4",
+            "_Position": "24",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN15"
+               },
+               {
+                  "_Name": "LCD_SEG23"
+               },
+               {
+                  "_Name": "LPUART1_RX"
+               },
+               {
+                  "_Name": "TSC_G3_IO1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC5",
+            "_Position": "25",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN8"
+               },
+               {
+                  "_Name": "LCD_SEG5"
+               },
+               {
+                  "_Name": "LCD_VLCD3"
+               },
+               {
+                  "_Name": "SYS_VREF_OUT_PB0"
+               },
+               {
+                  "_Name": "TSC_G3_IO2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB0",
+            "_Position": "26",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_IN9"
+               },
+               {
+                  "_Name": "LCD_SEG6"
+               },
+               {
+                  "_Name": "LPUART1_DE"
+               },
+               {
+                  "_Name": "LPUART1_RTS"
+               },
+               {
+                  "_Name": "SYS_VREF_OUT_PB1"
+               },
+               {
+                  "_Name": "TSC_G3_IO3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB1",
+            "_Position": "27",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_VLCD1"
+               },
+               {
+                  "_Name": "LPTIM1_OUT"
+               },
+               {
+                  "_Name": "TSC_G3_IO4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB2",
+            "_Position": "28",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2C2_SCL"
+               },
+               {
+                  "_Name": "LCD_SEG10"
+               },
+               {
+                  "_Name": "LPUART1_TX"
+               },
+               {
+                  "_Name": "SPI2_SCK"
+               },
+               {
+                  "_Name": "TIM2_CH3"
+               },
+               {
+                  "_Name": "TSC_SYNC"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB10",
+            "_Position": "29",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_EXTI11"
+               },
+               {
+                  "_Name": "I2C2_SDA"
+               },
+               {
+                  "_Name": "LCD_SEG11"
+               },
+               {
+                  "_Name": "LPUART1_RX"
+               },
+               {
+                  "_Name": "TIM2_CH4"
+               },
+               {
+                  "_Name": "TSC_G6_IO1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB11",
+            "_Position": "30",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "31",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "32",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2S2_WS"
+               },
+               {
+                  "_Name": "LCD_SEG12"
+               },
+               {
+                  "_Name": "LCD_VLCD2"
+               },
+               {
+                  "_Name": "LPUART1_DE"
+               },
+               {
+                  "_Name": "LPUART1_RTS"
+               },
+               {
+                  "_Name": "SPI2_NSS"
+               },
+               {
+                  "_Name": "TSC_G6_IO2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB12",
+            "_Position": "33",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2C2_SCL"
+               },
+               {
+                  "_Name": "I2S2_CK"
+               },
+               {
+                  "_Name": "LCD_SEG13"
+               },
+               {
+                  "_Name": "LPUART1_CTS"
+               },
+               {
+                  "_Name": "SPI2_SCK"
+               },
+               {
+                  "_Name": "TIM21_CH1"
+               },
+               {
+                  "_Name": "TSC_G6_IO3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB13",
+            "_Position": "34",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2C2_SDA"
+               },
+               {
+                  "_Name": "I2S2_MCK"
+               },
+               {
+                  "_Name": "LCD_SEG14"
+               },
+               {
+                  "_Name": "LPUART1_DE"
+               },
+               {
+                  "_Name": "LPUART1_RTS"
+               },
+               {
+                  "_Name": "RTC_OUT_ALARM"
+               },
+               {
+                  "_Name": "RTC_OUT_CALIB"
+               },
+               {
+                  "_Name": "SPI2_MISO"
+               },
+               {
+                  "_Name": "TIM21_CH2"
+               },
+               {
+                  "_Name": "TSC_G6_IO4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "Condition": {
+               "_Diagnostic": "",
+               "_Expression": "!(RTC_OUT_ALARM & CALIBRATION)"
+            },
+            "_Name": "PB14",
+            "_Position": "35",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2S2_SD"
+               },
+               {
+                  "_Name": "LCD_SEG15"
+               },
+               {
+                  "_Name": "RTC_REFIN"
+               },
+               {
+                  "_Name": "SPI2_MOSI"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB15",
+            "_Position": "36",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_SEG24"
+               },
+               {
+                  "_Name": "TIM22_CH1"
+               },
+               {
+                  "_Name": "TSC_G8_IO1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC6",
+            "_Position": "37",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_SEG25"
+               },
+               {
+                  "_Name": "TIM22_CH2"
+               },
+               {
+                  "_Name": "TSC_G8_IO2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC7",
+            "_Position": "38",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_SEG26"
+               },
+               {
+                  "_Name": "TIM22_ETR"
+               },
+               {
+                  "_Name": "TSC_G8_IO3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC8",
+            "_Position": "39",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "LCD_SEG27"
+               },
+               {
+                  "_Name": "TIM21_ETR"
+               },
+               {
+                  "_Name": "TSC_G8_IO4"
+               },
+               {
+                  "_Name": "USB_NOE"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC9",
+            "_Position": "40",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CRS_SYNC"
+               },
+               {
+                  "_Name": "LCD_COM0"
+               },
+               {
+                  "_Name": "RCC_MCO"
+               },
+               {
+                  "_Name": "USART1_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA8",
+            "_Position": "41",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "LCD_COM1"
+               },
+               {
+                  "_Name": "RCC_MCO"
+               },
+               {
+                  "_Name": "TSC_G4_IO1"
+               },
+               {
+                  "_Name": "USART1_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA9",
+            "_Position": "42",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_COM2"
+               },
+               {
+                  "_Name": "TSC_G4_IO2"
+               },
+               {
+                  "_Name": "USART1_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA10",
+            "_Position": "43",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_EXTI11"
+               },
+               {
+                  "_Name": "COMP1_OUT"
+               },
+               {
+                  "_Name": "SPI1_MISO"
+               },
+               {
+                  "_Name": "TSC_G4_IO3"
+               },
+               {
+                  "_Name": "USART1_CTS"
+               },
+               {
+                  "_Name": "USB_DM"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA11",
+            "_Position": "44",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "COMP2_OUT"
+               },
+               {
+                  "_Name": "SPI1_MOSI"
+               },
+               {
+                  "_Name": "TSC_G4_IO4"
+               },
+               {
+                  "_Name": "USART1_DE"
+               },
+               {
+                  "_Name": "USART1_RTS"
+               },
+               {
+                  "_Name": "USB_DP"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA12",
+            "_Position": "45",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "SYS_SWDIO"
+               },
+               {
+                  "_Name": "USB_NOE"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA13",
+            "_Position": "46",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "47",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD_USB",
+            "_Position": "48",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "SYS_SWCLK"
+               },
+               {
+                  "_Name": "USART2_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA14",
+            "_Position": "49",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_SEG17"
+               },
+               {
+                  "_Name": "SPI1_NSS"
+               },
+               {
+                  "_Name": "TIM2_CH1"
+               },
+               {
+                  "_Name": "TIM2_ETR"
+               },
+               {
+                  "_Name": "USART2_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA15",
+            "_Position": "50",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_COM4"
+               },
+               {
+                  "_Name": "LCD_SEG28"
+               },
+               {
+                  "_Name": "LPUART1_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC10",
+            "_Position": "51",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC_EXTI11"
+               },
+               {
+                  "_Name": "LCD_COM5"
+               },
+               {
+                  "_Name": "LCD_SEG29"
+               },
+               {
+                  "_Name": "LPUART1_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC11",
+            "_Position": "52",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_COM6"
+               },
+               {
+                  "_Name": "LCD_SEG30"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC12",
+            "_Position": "53",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "LCD_COM7"
+               },
+               {
+                  "_Name": "LCD_SEG31"
+               },
+               {
+                  "_Name": "LPUART1_DE"
+               },
+               {
+                  "_Name": "LPUART1_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD2",
+            "_Position": "54",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "COMP2_INM"
+               },
+               {
+                  "_Name": "LCD_SEG7"
+               },
+               {
+                  "_Name": "SPI1_SCK"
+               },
+               {
+                  "_Name": "TIM2_CH2"
+               },
+               {
+                  "_Name": "TSC_G5_IO1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB3",
+            "_Position": "55",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "COMP2_INP"
+               },
+               {
+                  "_Name": "LCD_SEG8"
+               },
+               {
+                  "_Name": "SPI1_MISO"
+               },
+               {
+                  "_Name": "TIM22_CH1"
+               },
+               {
+                  "_Name": "TSC_G5_IO2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB4",
+            "_Position": "56",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "COMP2_INP"
+               },
+               {
+                  "_Name": "I2C1_SMBA"
+               },
+               {
+                  "_Name": "LCD_SEG9"
+               },
+               {
+                  "_Name": "LPTIM1_IN1"
+               },
+               {
+                  "_Name": "SPI1_MOSI"
+               },
+               {
+                  "_Name": "TIM22_CH2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB5",
+            "_Position": "57",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "COMP2_INP"
+               },
+               {
+                  "_Name": "I2C1_SCL"
+               },
+               {
+                  "_Name": "LPTIM1_ETR"
+               },
+               {
+                  "_Name": "TSC_G5_IO3"
+               },
+               {
+                  "_Name": "USART1_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB6",
+            "_Position": "58",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "COMP2_INP"
+               },
+               {
+                  "_Name": "I2C1_SDA"
+               },
+               {
+                  "_Name": "LPTIM1_IN2"
+               },
+               {
+                  "_Name": "SYS_PVD_IN"
+               },
+               {
+                  "_Name": "TSC_G5_IO4"
+               },
+               {
+                  "_Name": "USART1_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB7",
+            "_Position": "59",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "BOOT0",
+            "_Position": "60",
+            "_Type": "Boot"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2C1_SCL"
+               },
+               {
+                  "_Name": "LCD_SEG16"
+               },
+               {
+                  "_Name": "TSC_SYNC"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB8",
+            "_Position": "61",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "I2C1_SDA"
+               },
+               {
+                  "_Name": "I2S2_WS"
+               },
+               {
+                  "_Name": "LCD_COM3"
+               },
+               {
+                  "_Name": "SPI2_NSS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB9",
+            "_Position": "62",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "63",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "64",
+            "_Type": "Power"
+         }
+      ],
+      "_xmlns": "http://mcd.rou.st.com/modules.php?name=mcu",
+      "_ClockTree": "STM32L0",
+      "_DBVersion": "V3.0",
+      "_Family": "STM32L0",
+      "_HasPowerPad": "false",
+      "_IOType": "",
+      "_Line": "STM32L0x3",
+      "_Package": "LQFP64",
+      "_RefName": "STM32L053R(6-8)Tx"
+   }
+}

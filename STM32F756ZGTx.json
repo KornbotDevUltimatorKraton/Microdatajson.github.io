@@ -1,0 +1,3872 @@
+{
+   "Mcu": {
+      "Core": "Arm Cortex-M7",
+      "Frequency": "216",
+      "CCMRam": "64",
+      "Ram": "320",
+      "IONb": "114",
+      "Die": "DIE449",
+      "Flash": "1024",
+      "Voltage": {
+         "_Max": "3.6",
+         "_Min": "1.7"
+      },
+      "Current": {
+         "_Lowest": "1.7",
+         "_Run": "472"
+      },
+      "Temperature": {
+         "_Max": "85",
+         "_Min": "-40"
+      },
+      "IP": [
+         {
+            "_InstanceName": "ADC1",
+            "_Name": "ADC",
+            "_Version": "aditf2_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "ADC2",
+            "_Name": "ADC",
+            "_Version": "aditf2_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "ADC3",
+            "_Name": "ADC",
+            "_Version": "aditf2_v1_1_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_CAN1_CLK_ENABLE",
+            "_ConfigFile": "CAN-STM32F7xx",
+            "_InstanceName": "CAN1",
+            "_Name": "CAN",
+            "_Version": "bxcan1_v1_1_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_CAN2_CLK_ENABLE; __HAL_RCC_CAN1_CLK_ENABLE",
+            "_ConfigFile": "CAN-STM32F7xx",
+            "_InstanceName": "CAN2",
+            "_Name": "CAN",
+            "_Version": "bxcan1_v1_1_Cube"
+         },
+         {
+            "_ConfigFile": "CORTEX_M7-STM32F7xx",
+            "_InstanceName": "CORTEX_M7",
+            "_Name": "CORTEX_M7",
+            "_Version": "cortex_v1_0_Cube"
+         },
+         {
+            "_ConfigFile": "CRC-STM32F7xx",
+            "_InstanceName": "CRC",
+            "_Name": "CRC",
+            "_Version": "integtest1_v2_0"
+         },
+         {
+            "_ConfigFile": "CRYP-STM32F7xx",
+            "_InstanceName": "CRYP",
+            "_Name": "CRYP",
+            "_Version": "cryp1_v2_2_MP1_Cube"
+         },
+         {
+            "_InstanceName": "DAC",
+            "_Name": "DAC",
+            "_Version": "dacif_v1_1_Cube"
+         },
+         {
+            "_ConfigFile": "DCMI-STM32F7xx",
+            "_InstanceName": "DCMI",
+            "_Name": "DCMI",
+            "_Version": "cci_v2_0_Cube"
+         },
+         {
+            "_ConfigFile": "DMA2D-STM32F7xx",
+            "_InstanceName": "DMA2D",
+            "_Name": "DMA2D",
+            "_Version": "dma2d1_v1_0"
+         },
+         {
+            "_ConfigFile": "ETH-STM32F7xx",
+            "_InstanceName": "ETH",
+            "_Name": "ETH",
+            "_Version": "ethermac110_v2_0"
+         },
+         {
+            "_ConfigFile": "FATFS-STM32F7xx",
+            "_InstanceName": "FATFS",
+            "_Name": "FATFS",
+            "_Version": "v0.1.0_Cube"
+         },
+         {
+            "_ConfigFile": "FMC-STM32F7xx",
+            "_InstanceName": "FMC",
+            "_Name": "FMC",
+            "_Version": "f7_fmc_v2_0"
+         },
+         {
+            "_ConfigFile": "FREERTOS-STM32F7xx",
+            "_InstanceName": "FREERTOS",
+            "_Name": "FREERTOS",
+            "_Version": "v8.0.0_Cube"
+         },
+         {
+            "_ConfigFile": "HASH-STM32F7xx",
+            "_InstanceName": "HASH",
+            "_Name": "HASH",
+            "_Version": "hash1_v2_2_Cube"
+         },
+         {
+            "_ConfigFile": "CEC-STM32F7xx",
+            "_InstanceName": "HDMI_CEC",
+            "_Name": "HDMI_CEC",
+            "_Version": "hdmi_cec_v2_0_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_I2C1_CLK_ENABLE",
+            "_InstanceName": "I2C1",
+            "_Name": "I2C",
+            "_Version": "i2c2_v1_1F7_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_I2C2_CLK_ENABLE",
+            "_InstanceName": "I2C2",
+            "_Name": "I2C",
+            "_Version": "i2c2_v1_1F7_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_I2C3_CLK_ENABLE",
+            "_InstanceName": "I2C3",
+            "_Name": "I2C",
+            "_Version": "i2c2_v1_1F7_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_I2C4_CLK_ENABLE",
+            "_InstanceName": "I2C4",
+            "_Name": "I2C",
+            "_Version": "i2c2_v1_1F7_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_SPI1_CLK_ENABLE",
+            "_ConfigFile": "I2S-STM32F7xx",
+            "_InstanceName": "I2S1",
+            "_Name": "I2S",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_SPI2_CLK_ENABLE",
+            "_ConfigFile": "I2S-STM32F7xx",
+            "_InstanceName": "I2S2",
+            "_Name": "I2S",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_SPI3_CLK_ENABLE",
+            "_ConfigFile": "I2S-STM32F7xx",
+            "_InstanceName": "I2S3",
+            "_Name": "I2S",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ClockEnableMode": "none",
+            "_ConfigFile": "IWDG-STM32F7xx",
+            "_InstanceName": "IWDG",
+            "_Name": "IWDG",
+            "_Version": "iwdg1_v2_0"
+         },
+         {
+            "_ConfigFile": "LIBJPEG-STM32F7xx",
+            "_InstanceName": "LIBJPEG",
+            "_Name": "LIBJPEG",
+            "_Version": "v8_Cube"
+         },
+         {
+            "_ConfigFile": "LPTIM-STM32F7xx",
+            "_InstanceName": "LPTIM1",
+            "_Name": "LPTIM",
+            "_Version": "F7_lptimer1_v1_1_Cube"
+         },
+         {
+            "_ConfigFile": "LTDC-STM32F7xx",
+            "_InstanceName": "LTDC",
+            "_Name": "LTDC",
+            "_Version": "lcdtft1_v1_0"
+         },
+         {
+            "_ConfigFile": "LWIP-STM32F7xx",
+            "_InstanceName": "LWIP",
+            "_Name": "LWIP",
+            "_Version": "v2.1.2_Cube"
+         },
+         {
+            "_ConfigFile": "MBEDTLS-STM32F7xx",
+            "_InstanceName": "MBEDTLS",
+            "_Name": "MBEDTLS",
+            "_Version": "v2_16_2_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_CRC_CLK_ENABLE",
+            "_ConfigFile": "PDM2PCM-STM32F7xx",
+            "_InstanceName": "PDM2PCM",
+            "_Name": "PDM2PCM",
+            "_Version": "pdm2pcm_v3.2.0_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_QSPI_CLK_ENABLE",
+            "_ConfigFile": "QUADSPI-STM32F7xx",
+            "_InstanceName": "QUADSPI",
+            "_Name": "QUADSPI",
+            "_Version": "quadspi1_v1_0_Cube"
+         },
+         {
+            "_InstanceName": "RCC",
+            "_Name": "RCC",
+            "_Version": "STM32F7_rcc_v1_0"
+         },
+         {
+            "_ConfigFile": "RNG-STM32F7xx",
+            "_InstanceName": "RNG",
+            "_Name": "RNG",
+            "_Version": "rng1_v1_1"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_RTC_ENABLE",
+            "_ConfigFile": "RTC-STM32F7xx",
+            "_InstanceName": "RTC",
+            "_Name": "RTC",
+            "_Version": "rtc2_v2_6_Cube"
+         },
+         {
+            "_ConfigFile": "SAI-STM32F7xx",
+            "_InstanceName": "SAI1",
+            "_Name": "SAI",
+            "_Version": "sai1_v1_1_Cube"
+         },
+         {
+            "_ConfigFile": "SAI-STM32F7xx",
+            "_InstanceName": "SAI2",
+            "_Name": "SAI",
+            "_Version": "sai1_v1_1_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_SDMMC1_CLK_ENABLE",
+            "_ConfigFile": "SDIO-STM32F7xx",
+            "_InstanceName": "SDMMC1",
+            "_Name": "SDMMC",
+            "_Version": "sdmmc_v1_3_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_SPDIFRX_CLK_ENABLE",
+            "_ConfigFile": "SPDIFRX-STM32F7xx",
+            "_InstanceName": "SPDIFRX",
+            "_Name": "SPDIFRX",
+            "_Version": "spdifrx1_v1_0_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32F7xx",
+            "_InstanceName": "SPI1",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32F7xx",
+            "_InstanceName": "SPI2",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32F7xx",
+            "_InstanceName": "SPI3",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32F7xx",
+            "_InstanceName": "SPI4",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32F7xx",
+            "_InstanceName": "SPI5",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ConfigFile": "SPI-STM32F7xx",
+            "_InstanceName": "SPI6",
+            "_Name": "SPI",
+            "_Version": "spi2s1_v3_2_Cube"
+         },
+         {
+            "_ClockEnableMode": "__HAL_RCC_PWR_CLK_ENABLE;__HAL_RCC_SYSCFG_CLK_ENABLE",
+            "_InstanceName": "SYS",
+            "_Name": "SYS",
+            "_Version": "STM32F7_sys_v1_0"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM1",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM2",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM3",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM4",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM5",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM6",
+            "_Name": "TIM6_7F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM7",
+            "_Name": "TIM6_7F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM8",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM9",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM10",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM11",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM12",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM13",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_ConfigFile": "TIM-STM32F7xx",
+            "_InstanceName": "TIM14",
+            "_Name": "TIM1_8F7",
+            "_Version": "gptimer2_v3_x_Cube"
+         },
+         {
+            "_InstanceName": "UART4",
+            "_Name": "UART",
+            "_Version": "sci2_v2_1_Cube"
+         },
+         {
+            "_InstanceName": "UART5",
+            "_Name": "UART",
+            "_Version": "sci2_v2_1_Cube"
+         },
+         {
+            "_InstanceName": "UART7",
+            "_Name": "UART",
+            "_Version": "sci2_v2_1_Cube"
+         },
+         {
+            "_InstanceName": "UART8",
+            "_Name": "UART",
+            "_Version": "sci2_v2_1_Cube"
+         },
+         {
+            "_InstanceName": "USART1",
+            "_Name": "USART",
+            "_Version": "sci3_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "USART2",
+            "_Name": "USART",
+            "_Version": "sci3_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "USART3",
+            "_Name": "USART",
+            "_Version": "sci3_v1_1_Cube"
+         },
+         {
+            "_InstanceName": "USART6",
+            "_Name": "USART",
+            "_Version": "sci3_v1_1_Cube"
+         },
+         {
+            "_ConfigFile": "USB_DEVICE-STM32F7xx",
+            "_InstanceName": "USB_DEVICE",
+            "_Name": "USB_DEVICE",
+            "_Version": "v1.0_Cube"
+         },
+         {
+            "_ConfigFile": "USB_HOST-STM32F7xx",
+            "_InstanceName": "USB_HOST",
+            "_Name": "USB_HOST",
+            "_Version": "v1.0_Cube"
+         },
+         {
+            "_InstanceName": "USB_OTG_FS",
+            "_Name": "USB_OTG_FS",
+            "_Version": "otgfs1_v2_1_Cube"
+         },
+         {
+            "_InstanceName": "USB_OTG_HS",
+            "_Name": "USB_OTG_HS",
+            "_Version": "otghs1_v2_0_Cube"
+         },
+         {
+            "_ConfigFile": "WWDG-STM32F7xx",
+            "_InstanceName": "WWDG",
+            "_Name": "WWDG",
+            "_Version": "wwdg1_v1_0"
+         },
+         {
+            "_ConfigFile": "GPIO-STM32F7xx",
+            "_InstanceName": "GPIO",
+            "_Name": "GPIO",
+            "_Version": "STM32F746_gpio_v1_0"
+         },
+         {
+            "_ConfigFile": "DMA-STM32F7xx",
+            "_InstanceName": "DMA",
+            "_Name": "DMA",
+            "_Version": "STM32F777_dma_v2_0"
+         },
+         {
+            "_ConfigFile": "NVIC-STM32F7xx",
+            "_InstanceName": "NVIC",
+            "_Name": "NVIC",
+            "_Version": "STM32F777"
+         }
+      ],
+      "Pin": [
+         {
+            "Signal": [
+               {
+                  "_Name": "ETH_TXD3"
+               },
+               {
+                  "_Name": "FMC_A23"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO2"
+               },
+               {
+                  "_Name": "SAI1_MCLK_A"
+               },
+               {
+                  "_Name": "SPI4_SCK"
+               },
+               {
+                  "_Name": "SYS_TRACECLK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE2",
+            "_Position": "1",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A19"
+               },
+               {
+                  "_Name": "SAI1_SD_B"
+               },
+               {
+                  "_Name": "SYS_TRACED0"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE3",
+            "_Position": "2",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D4"
+               },
+               {
+                  "_Name": "FMC_A20"
+               },
+               {
+                  "_Name": "LTDC_B0"
+               },
+               {
+                  "_Name": "SAI1_FS_A"
+               },
+               {
+                  "_Name": "SPI4_NSS"
+               },
+               {
+                  "_Name": "SYS_TRACED1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE4",
+            "_Position": "3",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D6"
+               },
+               {
+                  "_Name": "FMC_A21"
+               },
+               {
+                  "_Name": "LTDC_G0"
+               },
+               {
+                  "_Name": "SAI1_SCK_A"
+               },
+               {
+                  "_Name": "SPI4_MISO"
+               },
+               {
+                  "_Name": "SYS_TRACED2"
+               },
+               {
+                  "_Name": "TIM9_CH1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE5",
+            "_Position": "4",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D7"
+               },
+               {
+                  "_Name": "FMC_A22"
+               },
+               {
+                  "_Name": "LTDC_G1"
+               },
+               {
+                  "_Name": "SAI1_SD_A"
+               },
+               {
+                  "_Name": "SAI2_MCLK_B"
+               },
+               {
+                  "_Name": "SPI4_MOSI"
+               },
+               {
+                  "_Name": "SYS_TRACED3"
+               },
+               {
+                  "_Name": "TIM1_BKIN2"
+               },
+               {
+                  "_Name": "TIM9_CH2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE6",
+            "_Position": "5",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VBAT",
+            "_Position": "6",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RTC_OUT"
+               },
+               {
+                  "_Name": "RTC_TAMP1"
+               },
+               {
+                  "_Name": "RTC_TS"
+               },
+               {
+                  "_Name": "SYS_WKUP4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC13",
+            "_Position": "7",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RCC_OSC32_IN"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC14/OSC32_IN",
+            "_Position": "8",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RCC_OSC32_OUT"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC15/OSC32_OUT",
+            "_Position": "9",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A0"
+               },
+               {
+                  "_Name": "I2C2_SDA"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF0",
+            "_Position": "10",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A1"
+               },
+               {
+                  "_Name": "I2C2_SCL"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF1",
+            "_Position": "11",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A2"
+               },
+               {
+                  "_Name": "I2C2_SMBA"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF2",
+            "_Position": "12",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN9"
+               },
+               {
+                  "_Name": "FMC_A3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF3",
+            "_Position": "13",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN14"
+               },
+               {
+                  "_Name": "FMC_A4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF4",
+            "_Position": "14",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN15"
+               },
+               {
+                  "_Name": "FMC_A5"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF5",
+            "_Position": "15",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "16",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "17",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN4"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO3"
+               },
+               {
+                  "_Name": "SAI1_SD_B"
+               },
+               {
+                  "_Name": "SPI5_NSS"
+               },
+               {
+                  "_Name": "TIM10_CH1"
+               },
+               {
+                  "_Name": "UART7_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF6",
+            "_Position": "18",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN5"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO2"
+               },
+               {
+                  "_Name": "SAI1_MCLK_B"
+               },
+               {
+                  "_Name": "SPI5_SCK"
+               },
+               {
+                  "_Name": "TIM11_CH1"
+               },
+               {
+                  "_Name": "UART7_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF7",
+            "_Position": "19",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN6"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO0"
+               },
+               {
+                  "_Name": "SAI1_SCK_B"
+               },
+               {
+                  "_Name": "SPI5_MISO"
+               },
+               {
+                  "_Name": "TIM13_CH1"
+               },
+               {
+                  "_Name": "UART7_DE"
+               },
+               {
+                  "_Name": "UART7_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF8",
+            "_Position": "20",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN7"
+               },
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO1"
+               },
+               {
+                  "_Name": "SAI1_FS_B"
+               },
+               {
+                  "_Name": "SPI5_MOSI"
+               },
+               {
+                  "_Name": "TIM14_CH1"
+               },
+               {
+                  "_Name": "UART7_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF9",
+            "_Position": "21",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC3_IN8"
+               },
+               {
+                  "_Name": "DCMI_D11"
+               },
+               {
+                  "_Name": "LTDC_DE"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF10",
+            "_Position": "22",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RCC_OSC_IN"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PH0/OSC_IN",
+            "_Position": "23",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "RCC_OSC_OUT"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PH1/OSC_OUT",
+            "_Position": "24",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "NRST",
+            "_Position": "25",
+            "_Type": "Reset"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN10"
+               },
+               {
+                  "_Name": "ADC2_IN10"
+               },
+               {
+                  "_Name": "ADC3_IN10"
+               },
+               {
+                  "_Name": "FMC_SDNWE"
+               },
+               {
+                  "_Name": "LTDC_R5"
+               },
+               {
+                  "_Name": "SAI2_FS_B"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_STP"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC0",
+            "_Position": "26",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN11"
+               },
+               {
+                  "_Name": "ADC2_IN11"
+               },
+               {
+                  "_Name": "ADC3_IN11"
+               },
+               {
+                  "_Name": "ETH_MDC"
+               },
+               {
+                  "_Name": "I2S2_SD"
+               },
+               {
+                  "_Name": "RTC_TAMP3"
+               },
+               {
+                  "_Name": "RTC_TS"
+               },
+               {
+                  "_Name": "SAI1_SD_A"
+               },
+               {
+                  "_Name": "SPI2_MOSI"
+               },
+               {
+                  "_Name": "SYS_TRACED0"
+               },
+               {
+                  "_Name": "SYS_WKUP3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC1",
+            "_Position": "27",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN12"
+               },
+               {
+                  "_Name": "ADC2_IN12"
+               },
+               {
+                  "_Name": "ADC3_IN12"
+               },
+               {
+                  "_Name": "ETH_TXD2"
+               },
+               {
+                  "_Name": "FMC_SDNE0"
+               },
+               {
+                  "_Name": "SPI2_MISO"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_DIR"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC2",
+            "_Position": "28",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN13"
+               },
+               {
+                  "_Name": "ADC2_IN13"
+               },
+               {
+                  "_Name": "ADC3_IN13"
+               },
+               {
+                  "_Name": "ETH_TX_CLK"
+               },
+               {
+                  "_Name": "FMC_SDCKE0"
+               },
+               {
+                  "_Name": "I2S2_SD"
+               },
+               {
+                  "_Name": "SPI2_MOSI"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_NXT"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC3",
+            "_Position": "29",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "30",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VSSA",
+            "_Position": "31",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VREF+",
+            "_Position": "32",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDDA",
+            "_Position": "33",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN0"
+               },
+               {
+                  "_Name": "ADC2_IN0"
+               },
+               {
+                  "_Name": "ADC3_IN0"
+               },
+               {
+                  "_Name": "ETH_CRS"
+               },
+               {
+                  "_Name": "SAI2_SD_B"
+               },
+               {
+                  "_Name": "SYS_WKUP1"
+               },
+               {
+                  "_Name": "TIM2_CH1"
+               },
+               {
+                  "_Name": "TIM2_ETR"
+               },
+               {
+                  "_Name": "TIM5_CH1"
+               },
+               {
+                  "_Name": "TIM8_ETR"
+               },
+               {
+                  "_Name": "UART4_TX"
+               },
+               {
+                  "_Name": "USART2_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "Condition": {
+               "_Diagnostic": "",
+               "_Expression": "(!(TIM2_CH1 & (PA15_S_TIM2_ETR|PA5_S_TIM2_ETR)) & !(TIM2_ETR & (PA15_S_TIM2_CH1|PA5_S_TIM2_CH1)))"
+            },
+            "_Name": "PA0/WKUP",
+            "_Position": "34",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN1"
+               },
+               {
+                  "_Name": "ADC2_IN1"
+               },
+               {
+                  "_Name": "ADC3_IN1"
+               },
+               {
+                  "_Name": "ETH_REF_CLK"
+               },
+               {
+                  "_Name": "ETH_RX_CLK"
+               },
+               {
+                  "_Name": "LTDC_R2"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO3"
+               },
+               {
+                  "_Name": "SAI2_MCLK_B"
+               },
+               {
+                  "_Name": "TIM2_CH2"
+               },
+               {
+                  "_Name": "TIM5_CH2"
+               },
+               {
+                  "_Name": "UART4_RX"
+               },
+               {
+                  "_Name": "USART2_DE"
+               },
+               {
+                  "_Name": "USART2_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA1",
+            "_Position": "35",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN2"
+               },
+               {
+                  "_Name": "ADC2_IN2"
+               },
+               {
+                  "_Name": "ADC3_IN2"
+               },
+               {
+                  "_Name": "ETH_MDIO"
+               },
+               {
+                  "_Name": "LTDC_R1"
+               },
+               {
+                  "_Name": "SAI2_SCK_B"
+               },
+               {
+                  "_Name": "SYS_WKUP2"
+               },
+               {
+                  "_Name": "TIM2_CH3"
+               },
+               {
+                  "_Name": "TIM5_CH3"
+               },
+               {
+                  "_Name": "TIM9_CH1"
+               },
+               {
+                  "_Name": "USART2_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA2",
+            "_Position": "36",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN3"
+               },
+               {
+                  "_Name": "ADC2_IN3"
+               },
+               {
+                  "_Name": "ADC3_IN3"
+               },
+               {
+                  "_Name": "ETH_COL"
+               },
+               {
+                  "_Name": "LTDC_B5"
+               },
+               {
+                  "_Name": "TIM2_CH4"
+               },
+               {
+                  "_Name": "TIM5_CH4"
+               },
+               {
+                  "_Name": "TIM9_CH2"
+               },
+               {
+                  "_Name": "USART2_RX"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D0"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA3",
+            "_Position": "37",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "38",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "39",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN4"
+               },
+               {
+                  "_Name": "ADC2_IN4"
+               },
+               {
+                  "_Name": "DAC_OUT1"
+               },
+               {
+                  "_Name": "DCMI_HSYNC"
+               },
+               {
+                  "_Name": "I2S1_WS"
+               },
+               {
+                  "_Name": "I2S3_WS"
+               },
+               {
+                  "_Name": "LTDC_VSYNC"
+               },
+               {
+                  "_Name": "SPI1_NSS"
+               },
+               {
+                  "_Name": "SPI3_NSS"
+               },
+               {
+                  "_Name": "USART2_CK"
+               },
+               {
+                  "_Name": "USB_OTG_HS_SOF"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA4",
+            "_Position": "40",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN5"
+               },
+               {
+                  "_Name": "ADC2_IN5"
+               },
+               {
+                  "_Name": "DAC_OUT2"
+               },
+               {
+                  "_Name": "I2S1_CK"
+               },
+               {
+                  "_Name": "LTDC_R4"
+               },
+               {
+                  "_Name": "SPI1_SCK"
+               },
+               {
+                  "_Name": "TIM2_CH1"
+               },
+               {
+                  "_Name": "TIM2_ETR"
+               },
+               {
+                  "_Name": "TIM8_CH1N"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "Condition": {
+               "_Diagnostic": "",
+               "_Expression": "(!(TIM2_CH1 & (PA15_S_TIM2_ETR|PA0_S_TIM2_ETR)) & !(TIM2_ETR & (PA15_S_TIM2_CH1|PA0_S_TIM2_CH1)))"
+            },
+            "_Name": "PA5",
+            "_Position": "41",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN6"
+               },
+               {
+                  "_Name": "ADC2_IN6"
+               },
+               {
+                  "_Name": "DCMI_PIXCLK"
+               },
+               {
+                  "_Name": "LTDC_G2"
+               },
+               {
+                  "_Name": "SPI1_MISO"
+               },
+               {
+                  "_Name": "TIM13_CH1"
+               },
+               {
+                  "_Name": "TIM1_BKIN"
+               },
+               {
+                  "_Name": "TIM3_CH1"
+               },
+               {
+                  "_Name": "TIM8_BKIN"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA6",
+            "_Position": "42",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN7"
+               },
+               {
+                  "_Name": "ADC2_IN7"
+               },
+               {
+                  "_Name": "ETH_CRS_DV"
+               },
+               {
+                  "_Name": "ETH_RX_DV"
+               },
+               {
+                  "_Name": "FMC_SDNWE"
+               },
+               {
+                  "_Name": "I2S1_SD"
+               },
+               {
+                  "_Name": "SPI1_MOSI"
+               },
+               {
+                  "_Name": "TIM14_CH1"
+               },
+               {
+                  "_Name": "TIM1_CH1N"
+               },
+               {
+                  "_Name": "TIM3_CH2"
+               },
+               {
+                  "_Name": "TIM8_CH1N"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA7",
+            "_Position": "43",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN14"
+               },
+               {
+                  "_Name": "ADC2_IN14"
+               },
+               {
+                  "_Name": "ETH_RXD0"
+               },
+               {
+                  "_Name": "FMC_SDNE0"
+               },
+               {
+                  "_Name": "I2S1_MCK"
+               },
+               {
+                  "_Name": "SPDIFRX_IN2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC4",
+            "_Position": "44",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN15"
+               },
+               {
+                  "_Name": "ADC2_IN15"
+               },
+               {
+                  "_Name": "ETH_RXD1"
+               },
+               {
+                  "_Name": "FMC_SDCKE0"
+               },
+               {
+                  "_Name": "SPDIFRX_IN3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC5",
+            "_Position": "45",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN8"
+               },
+               {
+                  "_Name": "ADC2_IN8"
+               },
+               {
+                  "_Name": "ETH_RXD2"
+               },
+               {
+                  "_Name": "LTDC_R3"
+               },
+               {
+                  "_Name": "TIM1_CH2N"
+               },
+               {
+                  "_Name": "TIM3_CH3"
+               },
+               {
+                  "_Name": "TIM8_CH2N"
+               },
+               {
+                  "_Name": "UART4_CTS"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB0",
+            "_Position": "46",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_IN9"
+               },
+               {
+                  "_Name": "ADC2_IN9"
+               },
+               {
+                  "_Name": "ETH_RXD3"
+               },
+               {
+                  "_Name": "LTDC_R6"
+               },
+               {
+                  "_Name": "TIM1_CH3N"
+               },
+               {
+                  "_Name": "TIM3_CH4"
+               },
+               {
+                  "_Name": "TIM8_CH3N"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB1",
+            "_Position": "47",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2S3_SD"
+               },
+               {
+                  "_Name": "QUADSPI_CLK"
+               },
+               {
+                  "_Name": "SAI1_SD_A"
+               },
+               {
+                  "_Name": "SPI3_MOSI"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB2",
+            "_Position": "48",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "ADC3_EXTI11"
+               },
+               {
+                  "_Name": "DCMI_D12"
+               },
+               {
+                  "_Name": "FMC_SDNRAS"
+               },
+               {
+                  "_Name": "SAI2_SD_B"
+               },
+               {
+                  "_Name": "SPI5_MOSI"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF11",
+            "_Position": "49",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A6"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF12",
+            "_Position": "50",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "51",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "52",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A7"
+               },
+               {
+                  "_Name": "I2C4_SMBA"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF13",
+            "_Position": "53",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A8"
+               },
+               {
+                  "_Name": "I2C4_SCL"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF14",
+            "_Position": "54",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A9"
+               },
+               {
+                  "_Name": "I2C4_SDA"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PF15",
+            "_Position": "55",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A10"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG0",
+            "_Position": "56",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A11"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG1",
+            "_Position": "57",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D4"
+               },
+               {
+                  "_Name": "FMC_DA4"
+               },
+               {
+                  "_Name": "QUADSPI_BK2_IO0"
+               },
+               {
+                  "_Name": "TIM1_ETR"
+               },
+               {
+                  "_Name": "UART7_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE7",
+            "_Position": "58",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D5"
+               },
+               {
+                  "_Name": "FMC_DA5"
+               },
+               {
+                  "_Name": "QUADSPI_BK2_IO1"
+               },
+               {
+                  "_Name": "TIM1_CH1N"
+               },
+               {
+                  "_Name": "UART7_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE8",
+            "_Position": "59",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "FMC_D6"
+               },
+               {
+                  "_Name": "FMC_DA6"
+               },
+               {
+                  "_Name": "QUADSPI_BK2_IO2"
+               },
+               {
+                  "_Name": "TIM1_CH1"
+               },
+               {
+                  "_Name": "UART7_DE"
+               },
+               {
+                  "_Name": "UART7_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE9",
+            "_Position": "60",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "61",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "62",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D7"
+               },
+               {
+                  "_Name": "FMC_DA7"
+               },
+               {
+                  "_Name": "QUADSPI_BK2_IO3"
+               },
+               {
+                  "_Name": "TIM1_CH2N"
+               },
+               {
+                  "_Name": "UART7_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE10",
+            "_Position": "63",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "ADC3_EXTI11"
+               },
+               {
+                  "_Name": "FMC_D8"
+               },
+               {
+                  "_Name": "FMC_DA8"
+               },
+               {
+                  "_Name": "LTDC_G3"
+               },
+               {
+                  "_Name": "SAI2_SD_B"
+               },
+               {
+                  "_Name": "SPI4_NSS"
+               },
+               {
+                  "_Name": "TIM1_CH2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE11",
+            "_Position": "64",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D9"
+               },
+               {
+                  "_Name": "FMC_DA9"
+               },
+               {
+                  "_Name": "LTDC_B4"
+               },
+               {
+                  "_Name": "SAI2_SCK_B"
+               },
+               {
+                  "_Name": "SPI4_SCK"
+               },
+               {
+                  "_Name": "TIM1_CH3N"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE12",
+            "_Position": "65",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D10"
+               },
+               {
+                  "_Name": "FMC_DA10"
+               },
+               {
+                  "_Name": "LTDC_DE"
+               },
+               {
+                  "_Name": "SAI2_FS_B"
+               },
+               {
+                  "_Name": "SPI4_MISO"
+               },
+               {
+                  "_Name": "TIM1_CH3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE13",
+            "_Position": "66",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D11"
+               },
+               {
+                  "_Name": "FMC_DA11"
+               },
+               {
+                  "_Name": "LTDC_CLK"
+               },
+               {
+                  "_Name": "SAI2_MCLK_B"
+               },
+               {
+                  "_Name": "SPI4_MOSI"
+               },
+               {
+                  "_Name": "TIM1_CH4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE14",
+            "_Position": "67",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D12"
+               },
+               {
+                  "_Name": "FMC_DA12"
+               },
+               {
+                  "_Name": "LTDC_R7"
+               },
+               {
+                  "_Name": "TIM1_BKIN"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE15",
+            "_Position": "68",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ETH_RX_ER"
+               },
+               {
+                  "_Name": "I2C2_SCL"
+               },
+               {
+                  "_Name": "I2S2_CK"
+               },
+               {
+                  "_Name": "LTDC_G4"
+               },
+               {
+                  "_Name": "SPI2_SCK"
+               },
+               {
+                  "_Name": "TIM2_CH3"
+               },
+               {
+                  "_Name": "USART3_TX"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB10",
+            "_Position": "69",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "ADC3_EXTI11"
+               },
+               {
+                  "_Name": "ETH_TX_EN"
+               },
+               {
+                  "_Name": "I2C2_SDA"
+               },
+               {
+                  "_Name": "LTDC_G5"
+               },
+               {
+                  "_Name": "TIM2_CH4"
+               },
+               {
+                  "_Name": "USART3_RX"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB11",
+            "_Position": "70",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VCAP_1",
+            "_Position": "71",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "72",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN2_RX"
+               },
+               {
+                  "_Name": "ETH_TXD0"
+               },
+               {
+                  "_Name": "I2C2_SMBA"
+               },
+               {
+                  "_Name": "I2S2_WS"
+               },
+               {
+                  "_Name": "SPI2_NSS"
+               },
+               {
+                  "_Name": "TIM1_BKIN"
+               },
+               {
+                  "_Name": "USART3_CK"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ID"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D5"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB12",
+            "_Position": "73",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN2_TX"
+               },
+               {
+                  "_Name": "ETH_TXD1"
+               },
+               {
+                  "_Name": "I2S2_CK"
+               },
+               {
+                  "_Name": "SPI2_SCK"
+               },
+               {
+                  "_Name": "TIM1_CH1N"
+               },
+               {
+                  "_Name": "USART3_CTS"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D6"
+               },
+               {
+                  "_Name": "USB_OTG_HS_VBUS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB13",
+            "_Position": "74",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "SPI2_MISO"
+               },
+               {
+                  "_Name": "TIM12_CH1"
+               },
+               {
+                  "_Name": "TIM1_CH2N"
+               },
+               {
+                  "_Name": "TIM8_CH2N"
+               },
+               {
+                  "_Name": "USART3_DE"
+               },
+               {
+                  "_Name": "USART3_RTS"
+               },
+               {
+                  "_Name": "USB_OTG_HS_DM"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB14",
+            "_Position": "75",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2S2_SD"
+               },
+               {
+                  "_Name": "RTC_REFIN"
+               },
+               {
+                  "_Name": "SPI2_MOSI"
+               },
+               {
+                  "_Name": "TIM12_CH2"
+               },
+               {
+                  "_Name": "TIM1_CH3N"
+               },
+               {
+                  "_Name": "TIM8_CH3N"
+               },
+               {
+                  "_Name": "USB_OTG_HS_DP"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB15",
+            "_Position": "76",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D13"
+               },
+               {
+                  "_Name": "FMC_DA13"
+               },
+               {
+                  "_Name": "SPDIFRX_IN1"
+               },
+               {
+                  "_Name": "USART3_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD8",
+            "_Position": "77",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "FMC_D14"
+               },
+               {
+                  "_Name": "FMC_DA14"
+               },
+               {
+                  "_Name": "USART3_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD9",
+            "_Position": "78",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D15"
+               },
+               {
+                  "_Name": "FMC_DA15"
+               },
+               {
+                  "_Name": "LTDC_B3"
+               },
+               {
+                  "_Name": "USART3_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD10",
+            "_Position": "79",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "ADC3_EXTI11"
+               },
+               {
+                  "_Name": "FMC_A16"
+               },
+               {
+                  "_Name": "FMC_CLE"
+               },
+               {
+                  "_Name": "I2C4_SMBA"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO0"
+               },
+               {
+                  "_Name": "SAI2_SD_A"
+               },
+               {
+                  "_Name": "USART3_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD11",
+            "_Position": "80",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A17"
+               },
+               {
+                  "_Name": "FMC_ALE"
+               },
+               {
+                  "_Name": "I2C4_SCL"
+               },
+               {
+                  "_Name": "LPTIM1_IN1"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO1"
+               },
+               {
+                  "_Name": "SAI2_FS_A"
+               },
+               {
+                  "_Name": "TIM4_CH1"
+               },
+               {
+                  "_Name": "USART3_DE"
+               },
+               {
+                  "_Name": "USART3_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD12",
+            "_Position": "81",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A18"
+               },
+               {
+                  "_Name": "I2C4_SDA"
+               },
+               {
+                  "_Name": "LPTIM1_OUT"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO3"
+               },
+               {
+                  "_Name": "SAI2_SCK_A"
+               },
+               {
+                  "_Name": "TIM4_CH2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD13",
+            "_Position": "82",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "83",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "84",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D0"
+               },
+               {
+                  "_Name": "FMC_DA0"
+               },
+               {
+                  "_Name": "TIM4_CH3"
+               },
+               {
+                  "_Name": "UART8_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD14",
+            "_Position": "85",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_D1"
+               },
+               {
+                  "_Name": "FMC_DA1"
+               },
+               {
+                  "_Name": "TIM4_CH4"
+               },
+               {
+                  "_Name": "UART8_DE"
+               },
+               {
+                  "_Name": "UART8_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD15",
+            "_Position": "86",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A12"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG2",
+            "_Position": "87",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A13"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG3",
+            "_Position": "88",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A14"
+               },
+               {
+                  "_Name": "FMC_BA0"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG4",
+            "_Position": "89",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_A15"
+               },
+               {
+                  "_Name": "FMC_BA1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG5",
+            "_Position": "90",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D12"
+               },
+               {
+                  "_Name": "LTDC_R7"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG6",
+            "_Position": "91",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D13"
+               },
+               {
+                  "_Name": "FMC_INT"
+               },
+               {
+                  "_Name": "LTDC_CLK"
+               },
+               {
+                  "_Name": "USART6_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG7",
+            "_Position": "92",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ETH_PPS_OUT"
+               },
+               {
+                  "_Name": "FMC_SDCLK"
+               },
+               {
+                  "_Name": "SPDIFRX_IN2"
+               },
+               {
+                  "_Name": "SPI6_NSS"
+               },
+               {
+                  "_Name": "USART6_DE"
+               },
+               {
+                  "_Name": "USART6_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG8",
+            "_Position": "93",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "94",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDDUSB",
+            "_Position": "95",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D0"
+               },
+               {
+                  "_Name": "I2S2_MCK"
+               },
+               {
+                  "_Name": "LTDC_HSYNC"
+               },
+               {
+                  "_Name": "SDMMC1_D6"
+               },
+               {
+                  "_Name": "TIM3_CH1"
+               },
+               {
+                  "_Name": "TIM8_CH1"
+               },
+               {
+                  "_Name": "USART6_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC6",
+            "_Position": "96",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D1"
+               },
+               {
+                  "_Name": "I2S3_MCK"
+               },
+               {
+                  "_Name": "LTDC_G6"
+               },
+               {
+                  "_Name": "SDMMC1_D7"
+               },
+               {
+                  "_Name": "TIM3_CH2"
+               },
+               {
+                  "_Name": "TIM8_CH2"
+               },
+               {
+                  "_Name": "USART6_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC7",
+            "_Position": "97",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D2"
+               },
+               {
+                  "_Name": "SDMMC1_D0"
+               },
+               {
+                  "_Name": "SYS_TRACED1"
+               },
+               {
+                  "_Name": "TIM3_CH3"
+               },
+               {
+                  "_Name": "TIM8_CH3"
+               },
+               {
+                  "_Name": "UART5_DE"
+               },
+               {
+                  "_Name": "UART5_RTS"
+               },
+               {
+                  "_Name": "USART6_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC8",
+            "_Position": "98",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "DCMI_D3"
+               },
+               {
+                  "_Name": "I2C3_SDA"
+               },
+               {
+                  "_Name": "I2S_CKIN"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO0"
+               },
+               {
+                  "_Name": "RCC_MCO_2"
+               },
+               {
+                  "_Name": "SDMMC1_D1"
+               },
+               {
+                  "_Name": "TIM3_CH4"
+               },
+               {
+                  "_Name": "TIM8_CH4"
+               },
+               {
+                  "_Name": "UART5_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC9",
+            "_Position": "99",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2C3_SCL"
+               },
+               {
+                  "_Name": "LTDC_R6"
+               },
+               {
+                  "_Name": "RCC_MCO_1"
+               },
+               {
+                  "_Name": "TIM1_CH1"
+               },
+               {
+                  "_Name": "TIM8_BKIN2"
+               },
+               {
+                  "_Name": "USART1_CK"
+               },
+               {
+                  "_Name": "USB_OTG_FS_SOF"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA8",
+            "_Position": "100",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "DCMI_D0"
+               },
+               {
+                  "_Name": "I2C3_SMBA"
+               },
+               {
+                  "_Name": "I2S2_CK"
+               },
+               {
+                  "_Name": "SPI2_SCK"
+               },
+               {
+                  "_Name": "TIM1_CH2"
+               },
+               {
+                  "_Name": "USART1_TX"
+               },
+               {
+                  "_Name": "USB_OTG_FS_VBUS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA9",
+            "_Position": "101",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D1"
+               },
+               {
+                  "_Name": "TIM1_CH3"
+               },
+               {
+                  "_Name": "USART1_RX"
+               },
+               {
+                  "_Name": "USB_OTG_FS_ID"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA10",
+            "_Position": "102",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "ADC3_EXTI11"
+               },
+               {
+                  "_Name": "CAN1_RX"
+               },
+               {
+                  "_Name": "LTDC_R4"
+               },
+               {
+                  "_Name": "TIM1_CH4"
+               },
+               {
+                  "_Name": "USART1_CTS"
+               },
+               {
+                  "_Name": "USB_OTG_FS_DM"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA11",
+            "_Position": "103",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN1_TX"
+               },
+               {
+                  "_Name": "LTDC_R5"
+               },
+               {
+                  "_Name": "SAI2_FS_B"
+               },
+               {
+                  "_Name": "TIM1_ETR"
+               },
+               {
+                  "_Name": "USART1_DE"
+               },
+               {
+                  "_Name": "USART1_RTS"
+               },
+               {
+                  "_Name": "USB_OTG_FS_DP"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA12",
+            "_Position": "104",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "SYS_JTMS-SWDIO"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA13",
+            "_Position": "105",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VCAP_2",
+            "_Position": "106",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "107",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "108",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "SYS_JTCK-SWCLK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PA14",
+            "_Position": "109",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CEC"
+               },
+               {
+                  "_Name": "I2S1_WS"
+               },
+               {
+                  "_Name": "I2S3_WS"
+               },
+               {
+                  "_Name": "SPI1_NSS"
+               },
+               {
+                  "_Name": "SPI3_NSS"
+               },
+               {
+                  "_Name": "SYS_JTDI"
+               },
+               {
+                  "_Name": "TIM2_CH1"
+               },
+               {
+                  "_Name": "TIM2_ETR"
+               },
+               {
+                  "_Name": "UART4_DE"
+               },
+               {
+                  "_Name": "UART4_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "Condition": {
+               "_Diagnostic": "ETR and CH1 on the same GPIO for TIM2",
+               "_Expression": "(!(TIM2_CH1 & (PA5_S_TIM2_ETR|PA0_S_TIM2_ETR)) & !(TIM2_ETR & (PA5_S_TIM2_CH1|PA0_S_TIM2_CH1)))"
+            },
+            "_Name": "PA15",
+            "_Position": "110",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D8"
+               },
+               {
+                  "_Name": "I2S3_CK"
+               },
+               {
+                  "_Name": "LTDC_R2"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_IO1"
+               },
+               {
+                  "_Name": "SDMMC1_D2"
+               },
+               {
+                  "_Name": "SPI3_SCK"
+               },
+               {
+                  "_Name": "UART4_TX"
+               },
+               {
+                  "_Name": "USART3_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC10",
+            "_Position": "111",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "ADC3_EXTI11"
+               },
+               {
+                  "_Name": "DCMI_D4"
+               },
+               {
+                  "_Name": "QUADSPI_BK2_NCS"
+               },
+               {
+                  "_Name": "SDMMC1_D3"
+               },
+               {
+                  "_Name": "SPI3_MISO"
+               },
+               {
+                  "_Name": "UART4_RX"
+               },
+               {
+                  "_Name": "USART3_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC11",
+            "_Position": "112",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D9"
+               },
+               {
+                  "_Name": "I2S3_SD"
+               },
+               {
+                  "_Name": "SDMMC1_CK"
+               },
+               {
+                  "_Name": "SPI3_MOSI"
+               },
+               {
+                  "_Name": "SYS_TRACED3"
+               },
+               {
+                  "_Name": "UART5_TX"
+               },
+               {
+                  "_Name": "USART3_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PC12",
+            "_Position": "113",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN1_RX"
+               },
+               {
+                  "_Name": "FMC_D2"
+               },
+               {
+                  "_Name": "FMC_DA2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD0",
+            "_Position": "114",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN1_TX"
+               },
+               {
+                  "_Name": "FMC_D3"
+               },
+               {
+                  "_Name": "FMC_DA3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD1",
+            "_Position": "115",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D11"
+               },
+               {
+                  "_Name": "SDMMC1_CMD"
+               },
+               {
+                  "_Name": "SYS_TRACED2"
+               },
+               {
+                  "_Name": "TIM3_ETR"
+               },
+               {
+                  "_Name": "UART5_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD2",
+            "_Position": "116",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D5"
+               },
+               {
+                  "_Name": "FMC_CLK"
+               },
+               {
+                  "_Name": "I2S2_CK"
+               },
+               {
+                  "_Name": "LTDC_G7"
+               },
+               {
+                  "_Name": "SPI2_SCK"
+               },
+               {
+                  "_Name": "USART2_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD3",
+            "_Position": "117",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_NOE"
+               },
+               {
+                  "_Name": "USART2_DE"
+               },
+               {
+                  "_Name": "USART2_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD4",
+            "_Position": "118",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_NWE"
+               },
+               {
+                  "_Name": "USART2_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD5",
+            "_Position": "119",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "120",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "121",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D10"
+               },
+               {
+                  "_Name": "FMC_NWAIT"
+               },
+               {
+                  "_Name": "I2S3_SD"
+               },
+               {
+                  "_Name": "LTDC_B2"
+               },
+               {
+                  "_Name": "SAI1_SD_A"
+               },
+               {
+                  "_Name": "SPI3_MOSI"
+               },
+               {
+                  "_Name": "USART2_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD6",
+            "_Position": "122",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_NE1"
+               },
+               {
+                  "_Name": "SPDIFRX_IN0"
+               },
+               {
+                  "_Name": "USART2_CK"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PD7",
+            "_Position": "123",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "DCMI_VSYNC"
+               },
+               {
+                  "_Name": "FMC_NCE"
+               },
+               {
+                  "_Name": "FMC_NE2"
+               },
+               {
+                  "_Name": "QUADSPI_BK2_IO2"
+               },
+               {
+                  "_Name": "SAI2_FS_B"
+               },
+               {
+                  "_Name": "SPDIFRX_IN3"
+               },
+               {
+                  "_Name": "USART6_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG9",
+            "_Position": "124",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D2"
+               },
+               {
+                  "_Name": "FMC_NE3"
+               },
+               {
+                  "_Name": "LTDC_B2"
+               },
+               {
+                  "_Name": "LTDC_G3"
+               },
+               {
+                  "_Name": "SAI2_SD_B"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG10",
+            "_Position": "125",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ADC1_EXTI11"
+               },
+               {
+                  "_Name": "ADC2_EXTI11"
+               },
+               {
+                  "_Name": "ADC3_EXTI11"
+               },
+               {
+                  "_Name": "DCMI_D3"
+               },
+               {
+                  "_Name": "ETH_TX_EN"
+               },
+               {
+                  "_Name": "LTDC_B3"
+               },
+               {
+                  "_Name": "SPDIFRX_IN0"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG11",
+            "_Position": "126",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "FMC_NE4"
+               },
+               {
+                  "_Name": "LPTIM1_IN1"
+               },
+               {
+                  "_Name": "LTDC_B1"
+               },
+               {
+                  "_Name": "LTDC_B4"
+               },
+               {
+                  "_Name": "SPDIFRX_IN1"
+               },
+               {
+                  "_Name": "SPI6_MISO"
+               },
+               {
+                  "_Name": "USART6_DE"
+               },
+               {
+                  "_Name": "USART6_RTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG12",
+            "_Position": "127",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ETH_TXD0"
+               },
+               {
+                  "_Name": "FMC_A24"
+               },
+               {
+                  "_Name": "LPTIM1_OUT"
+               },
+               {
+                  "_Name": "LTDC_R0"
+               },
+               {
+                  "_Name": "SPI6_SCK"
+               },
+               {
+                  "_Name": "SYS_TRACED0"
+               },
+               {
+                  "_Name": "USART6_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG13",
+            "_Position": "128",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "ETH_TXD1"
+               },
+               {
+                  "_Name": "FMC_A25"
+               },
+               {
+                  "_Name": "LPTIM1_ETR"
+               },
+               {
+                  "_Name": "LTDC_B0"
+               },
+               {
+                  "_Name": "QUADSPI_BK2_IO3"
+               },
+               {
+                  "_Name": "SPI6_MOSI"
+               },
+               {
+                  "_Name": "SYS_TRACED1"
+               },
+               {
+                  "_Name": "USART6_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG14",
+            "_Position": "129",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "VSS",
+            "_Position": "130",
+            "_Type": "Power"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "131",
+            "_Type": "Power"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D13"
+               },
+               {
+                  "_Name": "FMC_SDNCAS"
+               },
+               {
+                  "_Name": "USART6_CTS"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PG15",
+            "_Position": "132",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2S1_CK"
+               },
+               {
+                  "_Name": "I2S3_CK"
+               },
+               {
+                  "_Name": "SPI1_SCK"
+               },
+               {
+                  "_Name": "SPI3_SCK"
+               },
+               {
+                  "_Name": "SYS_JTDO-SWO"
+               },
+               {
+                  "_Name": "TIM2_CH2"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB3",
+            "_Position": "133",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "I2S2_WS"
+               },
+               {
+                  "_Name": "SPI1_MISO"
+               },
+               {
+                  "_Name": "SPI2_NSS"
+               },
+               {
+                  "_Name": "SPI3_MISO"
+               },
+               {
+                  "_Name": "SYS_JTRST"
+               },
+               {
+                  "_Name": "TIM3_CH1"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB4",
+            "_Position": "134",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN2_RX"
+               },
+               {
+                  "_Name": "DCMI_D10"
+               },
+               {
+                  "_Name": "ETH_PPS_OUT"
+               },
+               {
+                  "_Name": "FMC_SDCKE1"
+               },
+               {
+                  "_Name": "I2C1_SMBA"
+               },
+               {
+                  "_Name": "I2S1_SD"
+               },
+               {
+                  "_Name": "I2S3_SD"
+               },
+               {
+                  "_Name": "SPI1_MOSI"
+               },
+               {
+                  "_Name": "SPI3_MOSI"
+               },
+               {
+                  "_Name": "TIM3_CH2"
+               },
+               {
+                  "_Name": "USB_OTG_HS_ULPI_D7"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB5",
+            "_Position": "135",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN2_TX"
+               },
+               {
+                  "_Name": "CEC"
+               },
+               {
+                  "_Name": "DCMI_D5"
+               },
+               {
+                  "_Name": "FMC_SDNE1"
+               },
+               {
+                  "_Name": "I2C1_SCL"
+               },
+               {
+                  "_Name": "QUADSPI_BK1_NCS"
+               },
+               {
+                  "_Name": "TIM4_CH1"
+               },
+               {
+                  "_Name": "USART1_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB6",
+            "_Position": "136",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_VSYNC"
+               },
+               {
+                  "_Name": "FMC_NL"
+               },
+               {
+                  "_Name": "I2C1_SDA"
+               },
+               {
+                  "_Name": "TIM4_CH2"
+               },
+               {
+                  "_Name": "USART1_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB7",
+            "_Position": "137",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "BOOT0",
+            "_Position": "138",
+            "_Type": "Boot"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN1_RX"
+               },
+               {
+                  "_Name": "DCMI_D6"
+               },
+               {
+                  "_Name": "ETH_TXD3"
+               },
+               {
+                  "_Name": "I2C1_SCL"
+               },
+               {
+                  "_Name": "LTDC_B6"
+               },
+               {
+                  "_Name": "SDMMC1_D4"
+               },
+               {
+                  "_Name": "TIM10_CH1"
+               },
+               {
+                  "_Name": "TIM4_CH3"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB8",
+            "_Position": "139",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "CAN1_TX"
+               },
+               {
+                  "_Name": "DAC_EXTI9"
+               },
+               {
+                  "_Name": "DCMI_D7"
+               },
+               {
+                  "_Name": "I2C1_SDA"
+               },
+               {
+                  "_Name": "I2S2_WS"
+               },
+               {
+                  "_Name": "LTDC_B7"
+               },
+               {
+                  "_Name": "SDMMC1_D5"
+               },
+               {
+                  "_Name": "SPI2_NSS"
+               },
+               {
+                  "_Name": "TIM11_CH1"
+               },
+               {
+                  "_Name": "TIM4_CH4"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PB9",
+            "_Position": "140",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D2"
+               },
+               {
+                  "_Name": "FMC_NBL0"
+               },
+               {
+                  "_Name": "LPTIM1_ETR"
+               },
+               {
+                  "_Name": "SAI2_MCLK_A"
+               },
+               {
+                  "_Name": "TIM4_ETR"
+               },
+               {
+                  "_Name": "UART8_RX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE0",
+            "_Position": "141",
+            "_Type": "I/O"
+         },
+         {
+            "Signal": [
+               {
+                  "_Name": "DCMI_D3"
+               },
+               {
+                  "_Name": "FMC_NBL1"
+               },
+               {
+                  "_Name": "LPTIM1_IN2"
+               },
+               {
+                  "_Name": "UART8_TX"
+               },
+               {
+                  "_IOModes": "Input,Output,Analog,EVENTOUT,EXTI",
+                  "_Name": "GPIO"
+               }
+            ],
+            "_Name": "PE1",
+            "_Position": "142",
+            "_Type": "I/O"
+         },
+         {
+            "_Name": "PDR_ON",
+            "_Position": "143",
+            "_Type": "Reset"
+         },
+         {
+            "_Name": "VDD",
+            "_Position": "144",
+            "_Type": "Power"
+         }
+      ],
+      "_xmlns": "http://mcd.rou.st.com/modules.php?name=mcu",
+      "_ClockTree": "STM32F7",
+      "_DBVersion": "V3.0",
+      "_Family": "STM32F7",
+      "_HasPowerPad": "false",
+      "_IOType": "",
+      "_Line": "STM32F7x6",
+      "_Package": "LQFP144",
+      "_RefName": "STM32F756ZGTx"
+   }
+}
